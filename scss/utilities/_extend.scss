@@ -1,0 +1,9 @@
+@import 'variables';
+@import '../base/color';
+
+//borde fotos magicas
+%border-foto {
+    border: 2px solid $color-light;
+    border-radius: 8px;
+    box-shadow: 2px 2px 15px 0px $color-light; 
+}

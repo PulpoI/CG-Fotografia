@@ -1,0 +1,30 @@
+/*Main desk*/
+.main {
+    margin-top: 660px;
+    color: $color-light;
+    .main__foto--vertical, .main__foto--horizontal{
+        @extend %border-foto;
+    }
+}
+/*Main Tablet*/
+@media (max-width: $media-tablet) {
+    main {
+        margin-top: -25px;
+        .main--left {
+            margin-top: 10px;
+        }
+    }
+}
+/*Main Smartphone*/
+@media (max-width: $media-phone) {
+    .main--left {
+        display: none;
+    }
+    .main--right {
+        width: 100vh;
+        margin-top: 50px;
+    }
+}
+.col-6 img {
+    width: 100%;
+}

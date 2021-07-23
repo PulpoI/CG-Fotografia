@@ -1,0 +1,56 @@
+@import '../utilities/variables';
+@import '../utilities/extend';
+
+.seccion-dos {
+    background-color: white;
+}
+
+.seccion-dos__header {
+    text-align: center;
+    margin: 0px 200px;
+    padding: 40px;
+    @media (max-width: $media-tablet) {
+        margin: 0px 20px;
+    }
+    @media (max-width: $media-phone) {
+        margin: 0px 10px;
+    }
+}
+
+.seccion-dos__fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    img {
+        width: 400px;
+        @extend %border-foto;
+    }
+    //Grid-area solo para tablet
+    @media only screen and (max-width: $media-tablet) and (min-width: $media-phone){
+        display: grid;
+        grid-template-areas: 
+        "foto-1 foto-2"
+        "foto-3 foto-3" 
+        ;
+        grid-template-rows: 100vh;
+        grid-template-columns: 430px 430px;
+        margin: 0;
+        background-color: white;
+        img {
+            width: 100%;
+        }
+    }
+}
+//grid areas 
+.foto-1 {grid-area: foto-1;}
+.foto-2 {grid-area: foto-2;}
+.foto-3 {grid-area: foto-3;}
+
+
+.seccion-dos__texto {
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+    color: white;
+
+}
