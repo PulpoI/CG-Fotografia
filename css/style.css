@@ -8,6 +8,12 @@
 body {
   overflow-x: hidden; }
 
+@font-face {
+  font-family: 'bromello';
+  font-style: normal;
+  font-weight: 400;
+  src: local("bromello"), url("https://fonts.cdnfonts.com/s/13894/bromello.woff") format("woff"); }
+
 body {
   background-color: #BF7154; }
 
