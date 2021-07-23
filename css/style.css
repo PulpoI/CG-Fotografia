@@ -1,4 +1,3 @@
-@import url("http://fonts.cdnfonts.com/css/bromello?styles=15673");
 @import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
 .main .main__foto--vertical, .main .main__foto--horizontal, .seccion-dos__fotos img {
   border: 2px solid #F0F2AE;
@@ -13,6 +12,12 @@ body {
   font-style: normal;
   font-weight: 400;
   src: local("bromello"), url("https://fonts.cdnfonts.com/s/13894/bromello.woff") format("woff"); }
+
+hr {
+  height: 6px;
+  border-radius: 10px;
+  background-color: #F2A25C;
+  margin: 10px 30%; }
 
 body {
   background-color: #BF7154; }

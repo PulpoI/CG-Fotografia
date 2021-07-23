@@ -1,14 +1,17 @@
-@import url('http://fonts.cdnfonts.com/css/bromello?styles=15673');
-// font-family: 'bromello', sans-serif;
-@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
-//font-family: 'Reenie Beanie', cursive;
-
 @font-face {
     font-family: 'bromello';
     font-style: normal;
     font-weight: 400;
-    src: local('bromello'), url('https://fonts.cdnfonts.com/s/13894/bromello.woff') format('woff');
+    src: local('bromello'), url('https://fonts.cdnfonts.com/s/13894/bromello.woff') format('woff');}
+// font-family: 'bromello', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+//font-family: 'Reenie Beanie', cursive;
+
+
+
+hr {
+    height: 6px;
+    border-radius: 10px;
+    background-color: $color-striking;
+    margin: 10px 30%;
 }
-
-
-
