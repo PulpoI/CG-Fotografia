@@ -31,16 +31,14 @@ body {
     background-repeat: no-repeat;
     background-position-y: center;
     background-attachment: fixed;
-    margin-top: 800px;
+    
     @media (max-width: $media-tablet) {
         background-image: url(../assets/bg2-2.jpg);
-        margin-top: 650px;
         background-position-y: 0px;
         background-position: center;
     }
     @media (max-width: $media-phone) {
         background-image: url(../assets/bg2-3.jpg);
-        margin-top: 500px;
         background-position: center;
     }
 }

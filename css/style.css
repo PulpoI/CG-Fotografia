@@ -34,18 +34,15 @@ body {
   height: 800px;
   background-repeat: no-repeat;
   background-position-y: center;
-  background-attachment: fixed;
-  margin-top: 800px; }
+  background-attachment: fixed; }
   @media (max-width: 991.98px) {
     .bg-2 {
       background-image: url(../assets/bg2-2.jpg);
-      margin-top: 650px;
       background-position-y: 0px;
       background-position: center; } }
   @media (max-width: 575.98px) {
     .bg-2 {
       background-image: url(../assets/bg2-3.jpg);
-      margin-top: 500px;
       background-position: center; } }
 
 /*Segundo BG - Frase*/
@@ -89,14 +86,15 @@ body {
 
 /*Main desk*/
 .main {
-  margin-top: 660px;
+  margin-top: -70px;
+  padding-bottom: 30px;
   color: #F0F2AE; }
 
 /*Main Tablet*/
 @media (max-width: 991.98px) {
-  main {
-    margin-top: -25px; }
-    main .main--left {
+  .main {
+    margin-top: -90px; }
+    .main .main--left {
       margin-top: 10px; } }
 
 /*Main Smartphone*/

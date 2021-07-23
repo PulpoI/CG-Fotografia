@@ -1,6 +1,7 @@
 /*Main desk*/
 .main {
-    margin-top: 660px;
+    margin-top: -70px;
+    padding-bottom: 30px;
     color: $color-light;
     .main__foto--vertical, .main__foto--horizontal{
         @extend %border-foto;
@@ -8,8 +9,8 @@
 }
 /*Main Tablet*/
 @media (max-width: $media-tablet) {
-    main {
-        margin-top: -25px;
+    .main {
+        margin-top: -90px;
         .main--left {
             margin-top: 10px;
         }
