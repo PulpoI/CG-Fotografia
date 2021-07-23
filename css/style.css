@@ -6,6 +6,9 @@
   box-shadow: 2px 2px 15px 0px #F0F2AE; }
 
 body {
+  overflow-x: hidden; }
+
+body {
   background-color: #BF7154; }
 
 /*Primer BG*/
@@ -140,9 +143,8 @@ body {
     .seccion-dos__fotos {
       display: grid;
       grid-template-areas: "foto-1 foto-2" "foto-3 foto-3";
-      grid-template-rows: 1fr;
+      grid-template-rows: auto auto;
       grid-template-columns: 1fr 1fr;
-      margin: 0;
       background-color: white; }
       .seccion-dos__fotos img {
         width: 100%; } }
