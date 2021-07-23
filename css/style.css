@@ -19,12 +19,12 @@ body {
     .bg-1 {
       background-image: url(../assets/bg-2.jpg);
       background-size: cover;
-      background-position-x: -150px;
+      background-position: center;
       background-position-y: -50px; } }
   @media (max-width: 575.98px) {
     .bg-1 {
       background-image: url(../assets/bg-3.jpg);
-      background-position-x: -350px;
+      background-position: center;
       background-position-y: -50px; } }
 
 /*Segundo BG fixed*/
@@ -33,20 +33,20 @@ body {
   background-size: cover;
   height: 800px;
   background-repeat: no-repeat;
-  background-position-y: -120px;
+  background-position-y: center;
   background-attachment: fixed;
   margin-top: 800px; }
   @media (max-width: 991.98px) {
     .bg-2 {
       background-image: url(../assets/bg2-2.jpg);
       margin-top: 650px;
-      background-position-x: -80px;
-      background-position-y: 0px; } }
+      background-position-y: 0px;
+      background-position: center; } }
   @media (max-width: 575.98px) {
     .bg-2 {
       background-image: url(../assets/bg2-3.jpg);
       margin-top: 500px;
-      background-position-x: -350px; } }
+      background-position: center; } }
 
 /*Segundo BG - Frase*/
 .bg-2__frase {
@@ -138,12 +138,15 @@ body {
   justify-content: space-evenly; }
   .seccion-dos__fotos img {
     width: 400px; }
+    @media (max-width: 575.98px) {
+      .seccion-dos__fotos img {
+        width: 100%; } }
   @media only screen and (max-width: 991.98px) and (min-width: 575.98px) {
     .seccion-dos__fotos {
       display: grid;
       grid-template-areas: "foto-1 foto-2" "foto-3 foto-3";
-      grid-template-rows: 100vh;
-      grid-template-columns: 430px 430px;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr 1fr;
       margin: 0;
       background-color: white; }
       .seccion-dos__fotos img {

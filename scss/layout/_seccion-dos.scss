@@ -24,6 +24,10 @@
     img {
         width: 400px;
         @extend %border-foto;
+        @media (max-width: $media-phone) {
+            width: 100%;
+        }
+
     }
     //Grid-area solo para tablet
     @media only screen and (max-width: $media-tablet) and (min-width: $media-phone){
@@ -32,8 +36,8 @@
         "foto-1 foto-2"
         "foto-3 foto-3" 
         ;
-        grid-template-rows: 100vh;
-        grid-template-columns: 430px 430px;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
         margin: 0;
         background-color: white;
         img {
