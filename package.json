@@ -14,5 +14,13 @@
     "nodemon": "^2.0.12"
   },
   "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PulpoI/CG-Fotografia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PulpoI/CG-Fotografia/issues"
+  },
+  "homepage": "https://github.com/PulpoI/CG-Fotografia#readme",
   "description": ""
 }
