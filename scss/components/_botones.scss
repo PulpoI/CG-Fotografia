@@ -1,0 +1,43 @@
+@import '../utilities/variables';
+
+// btn bootstrap primario / carrusel 
+.btn-primary {
+    color: $color-dark;
+    background-color: white;
+    border-color: $color-bg-light;
+  }
+  .btn-primary:hover {
+    color: white;
+    background-color: $color-dark;
+    border-color: $color-light;
+  }
+.main {
+    .btn-outline-light {
+        margin-top: 10px;
+    }
+} 
+
+
+
+ // btn bootstrap outline 
+.btn-outline-light {
+
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+  }
+  .btn-outline-light:hover {
+    color: #000;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+  }
+
+
+
+// HR
+hr {
+    height: 6px;
+    border-radius: 10px;
+    background-color: $color-striking;
+    margin: 10px 30%;
+    border: none;
+}

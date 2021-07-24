@@ -13,12 +13,6 @@ body {
   font-weight: 400;
   src: local("bromello"), url("https://fonts.cdnfonts.com/s/13894/bromello.woff") format("woff"); }
 
-hr {
-  height: 6px;
-  border-radius: 10px;
-  background-color: #F2A25C;
-  margin: 10px 30%; }
-
 body {
   background-color: #BF7154; }
 
@@ -174,3 +168,58 @@ body {
   position: relative;
   bottom: 150px;
   color: white; }
+
+.btn-primary {
+  color: #594F57;
+  background-color: white;
+  border-color: #F2EFC2; }
+
+.btn-primary:hover {
+  color: white;
+  background-color: #594F57;
+  border-color: #F0F2AE; }
+
+.main .btn-outline-light {
+  margin-top: 10px; }
+
+.btn-outline-light {
+  color: #f8f9fa;
+  border-color: #f8f9fa; }
+
+.btn-outline-light:hover {
+  color: #000;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa; }
+
+hr {
+  height: 6px;
+  border-radius: 10px;
+  background-color: #F2A25C;
+  margin: 10px 30%;
+  border: none; }
+
+.social-links {
+  margin-top: 20px; }
+
+.social-links ul li {
+  text-align: center;
+  margin: 0 10px; }
+
+.social-links ul li a {
+  border: 1px solid #a59299;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  padding-top: 10px; }
+
+.social-links ul li:hover a, .social-links ul li:visited a {
+  background: #fff; }
+
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  padding-top: 30px; }

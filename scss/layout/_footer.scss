@@ -1,0 +1,27 @@
+@import '../utilities/variables';
+
+
+//Iconos de redes en footer
+.social-links {
+    margin-top: 20px; }
+    .social-links ul li {
+      text-align: center;
+      margin: 0 10px; }
+      .social-links ul li a {
+        border: 1px solid #a59299;
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+        padding: 0;
+        padding-top: 10px; }
+      .social-links ul li:hover a, .social-links ul li:visited a {
+        background: #fff; }
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    padding-top: 30px;
+}

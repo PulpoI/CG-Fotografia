@@ -1,5 +1,8 @@
 @charset "UTF-8";
-@import '../scss/base/_color.scss';
+
+
+
+
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -2937,12 +2940,12 @@ textarea.form-control-lg {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #0b5ed7;
+  background-color: red;
   border-color: #0a58ca;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #0b5ed7;
+  background-color: red;
   border-color: #0a58ca;
   box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
 }
