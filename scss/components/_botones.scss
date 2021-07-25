@@ -3,11 +3,11 @@
 // btn bootstrap primario / carrusel 
 .btn-primary {
     color: $color-dark;
-    background-color: white;
+    background-color: $color-white;
     border-color: $color-bg-light;
   }
   .btn-primary:hover {
-    color: white;
+    color: $color-white;
     background-color: $color-dark;
     border-color: $color-light;
   }
@@ -17,21 +17,17 @@
     }
 } 
 
-
-
- // btn bootstrap outline 
+// btn bootstrap outline 
 .btn-outline-light {
 
-    color: #f8f9fa;
-    border-color: #f8f9fa;
+    color: $color-white;
+    border-color: $color-white;
   }
   .btn-outline-light:hover {
     color: #000;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa;
+    background-color: $color-white;
+    border-color: $color-white;
   }
-
-
 
 // HR
 hr {
@@ -40,4 +36,13 @@ hr {
     background-color: $color-striking;
     margin: 10px 30%;
     border: none;
+}
+
+//Imputs 
+.form-control:focus {
+  color: $color-dark;
+  background-color: $color-white;
+  border-color: $color-medium;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(155, 137, 59, 0.25);
 }

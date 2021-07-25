@@ -2,7 +2,7 @@
 @import '../utilities/extend';
 
 .seccion-dos {
-    background-color: white;
+    background-color: $color-white;
 }
 
 .seccion-dos__header {
@@ -37,7 +37,7 @@
         ;
         grid-template-rows: auto auto;
         grid-template-columns: 1fr 1fr;
-        background-color: white;
+        background-color: $color-white;
         img {
             width: 100%;
         }
