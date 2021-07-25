@@ -117,7 +117,13 @@ body {
   width: 100%; }
 
 .carousel {
-  border-bottom: solid 100px #f8f9fa; }
+  border-bottom: solid 100px #f8f9fa;
+  color: #F0F2AE; }
+
+.carousel-caption {
+  color: #f8f9fa; }
+  .carousel-caption h2, .carousel-caption p {
+    text-shadow: 1px 1px 2px black, 0 0 1em #F2A25C, 0 0 0.2em #F2A25C; }
 
 .main .main__foto--vertical, .main .main__foto--horizontal, .seccion-dos__fotos img {
   border: 2px solid #F0F2AE;
@@ -219,6 +225,9 @@ footer iframe {
       height: 100%;
       width: 100%;
       margin: 0px; } }
+
+.row-footer {
+  --bs-gutter-x: 0rem!important; }
 
 .social-links {
   margin-top: 20px; }
@@ -326,4 +335,10 @@ footer .copy a:hover {
     padding-right: 0; } }
 
 .carousel {
-  border-bottom: solid 100px #f8f9fa; }
+  border-bottom: solid 100px #f8f9fa;
+  color: #F0F2AE; }
+
+.carousel-caption {
+  color: #f8f9fa; }
+  .carousel-caption h2, .carousel-caption p {
+    text-shadow: 1px 1px 2px black, 0 0 1em #F2A25C, 0 0 0.2em #F2A25C; }

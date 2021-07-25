@@ -1,5 +1,13 @@
+@import '../utilities/variables';
 
 .carousel {
     border-bottom: solid 100px $color-white;
-    
+    color: $color-light;
+}
+
+.carousel-caption {
+    color: $color-white;
+    h2, p {
+        text-shadow: $shadow-text;
+    }
 }

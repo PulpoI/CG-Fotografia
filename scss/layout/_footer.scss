@@ -11,6 +11,9 @@ footer {
     margin: 0px;
     }
   }
+  .row-footer {
+    --bs-gutter-x: 0rem!important;
+  }
 //Iconos de redes en footer
 .social-links {
   margin-top: 20px; }
