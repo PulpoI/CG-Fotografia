@@ -4,19 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Camila Gonzalez</title>
+    <!--Inicio SEO-->
+    <!--Keywords-->
+    <meta name="keywords" content="fotógrafo, profesional, sesiones, fiestas, artístico"> 
+    <!-- Titulo -->
+    <title>Camila Gonzalez - Fotografía Profesional</title>
+    <!-- Descripción -->
+    <meta name="description" content="Fotografía profesional en Chacabuco (6740). Eventos, Fiestas y Sesiones personalizadas">
+    <!-- Autor -->
+    <meta name="author" content="Pablo Duarte">
+    <!-- Copyright -->
+    <meta name="copyright" content="Camila Gonzalez">
+    <!-- Open graph -->
+    <meta property= "og: title" content="Camila Gonzalez - Fotografía Profesional">
+    <meta property= "og: description" content="Fotografía profesional en Chacabuco (6740). Eventos, Fiestas y Sesiones personalizadas">
+    <meta property= "og: image" content="assets/img/camera.png">
+    <meta property= "og: url" content="https://pulpoi.github.io/CG-Fotografia/">
+    <meta propert= "og: locale" content="es_Es">
+    <!-- fin SEO -->
     <!--Bootstrap-->
     <link rel="stylesheet" href="components/bootstrap.css">
     <!--Estilos propios-->
     <link rel="stylesheet" href="css/style.css">
     <!--Animate CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--Icono navegador-->
     <link rel="shortcut icon" href="assets/img/camera.png" type="image/x-icon">
 </head>
 <body>
 <!--Container general-->
 <div>
-  <!--Header BG 1-->
+  <!--Header + BG 1-->
   <div class="container-xxl bg-1">
     <!--Header Navbar Bootstrap-->
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent ">
@@ -31,7 +49,7 @@
                 <a class="nav-link activo" aria-current="page" href="#">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sobre mi</a>
+                <a class="nav-link" href="pages/sobre-mi.html">Sobre mi</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Portfolio</a>
@@ -58,9 +76,12 @@
           </div>
         </div>
     </nav>
+    <div class="boton-bajar">
+      <a href="#boton-bajar"> <img src="assets/img/flecha-abajo1.png" alt=""> </a>
+    </div>
   </div>  
   <!--Main-->
-  <main class="container-xl">
+  <main id="boton-bajar" class="container-xl">
         <div class="row main">
             <div class="col-6 main--left">
                 <img src="assets/DSC4584.jpg" class="main__foto--vertical" alt="">
@@ -229,7 +250,7 @@
 
     
   
-
+<!--Fin container general-->
 </div>
     <!--JS Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>

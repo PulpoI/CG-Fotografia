@@ -17,6 +17,27 @@
     }
 } 
 
+//Boton bajar
+.boton-bajar {
+  height: 1030px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  img {
+     width: 60px;
+     opacity: .5;
+     animation-name: boton-bajar;
+     animation-iteration-count: infinite;
+    animation-timing-function: ease-in;     
+    animation-duration: 2s;
+  }
+}
+@keyframes boton-bajar {
+  0% {width: 60px;}
+  25% {transform: translate(0px 50px);}
+  100% {transform: translate(0px 100px);}
+}
+
 // btn bootstrap outline 
 .btn-outline-light {
 

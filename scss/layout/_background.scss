@@ -4,7 +4,7 @@
 body {
     background-color: $color-bg-dark;
 }
-/*Primer BG*/
+/*BG 1 - Index*/
 .bg-1 {
     background-image: url(../assets/bg.jpg);
     background-size: cover;
@@ -19,11 +19,9 @@ body {
         }
     @media (max-width: $media-phone) {
             background-image: url(../assets/bg-3.jpg);
-            background-position: center;
-            background-position-y: -50px;
     }
 }
-/*Segundo BG fixed*/
+/*BG 2 - Index fixed*/
 .bg-2 {
     background-image: url(../assets/bg2.jpg);
     background-size: cover;
@@ -31,7 +29,6 @@ body {
     background-repeat: no-repeat;
     background-position-y: center;
     background-attachment: fixed;
-    
     @media (max-width: $media-tablet) {
         background-image: url(../assets/bg2-2.jpg);
         background-position-y: 0px;
@@ -42,7 +39,7 @@ body {
         background-position: center;
     }
 }
-/*Segundo BG - Frase*/
+/*BG 2 - Index frase*/
 .bg-2__frase {
     padding-top: 350px;
     text-align: center;
@@ -50,8 +47,25 @@ body {
     font-family: $font-frase;
     font-size: 4rem;
     margin: 0px 70px;
+    text-shadow: $shadow-text;
     @media (max-width: $media-phone) {
         padding-top: 200px;
         margin: 0px 5px;
     }
+}
+/*BG 1 - Sobre mi*/
+//Desk
+.bg-1--sobre-mi {
+    @extend .bg-1;
+    background-image: url(../assets/bg2.jpg);
+}
+//Tablet
+.bg-1--sobre-mi {
+    @media (max-width: $media-tablet) {
+    background-image: url(../assets/bg2-2.jpg);}
+}
+//Phone
+.bg-1--sobre-mi {
+    @media (max-width: $media-phone) {
+    background-image: url(../assets/bg2-3.jpg);}
 }

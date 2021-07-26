@@ -21,6 +21,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    text-shadow: $shadow-text;
     img {
         width: 400px;
         @extend %border-foto;
