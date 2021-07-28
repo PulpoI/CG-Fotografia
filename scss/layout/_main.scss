@@ -6,6 +6,9 @@
     .main__foto--vertical, .main__foto--horizontal{
         @extend %border-foto;
     }
+    .main--right {
+        padding-left: 70px;
+    }
 }
 /*Main Tablet*/
 @media (max-width: $media-tablet) {
@@ -13,6 +16,9 @@
         margin-top: -90px;
         .main--left {
             margin-top: 10px;
+        }
+        .main--right {
+            padding-left: 0px;
         }
     }
 }

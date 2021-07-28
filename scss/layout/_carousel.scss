@@ -1,13 +1,18 @@
-@import '../utilities/variables';
-
-.carousel {
+//Index
+#myCarousel {
     border-bottom: solid 100px $color-white;
     color: $color-light;
 }
-
 .carousel-caption {
     color: $color-white;
     h2, p {
         text-shadow: $shadow-text;
     }
+}
+//Sobre mi
+.carousel-fade img{
+    @extend %border-foto;
+}
+.carousel-inner {
+    overflow: unset;
 }
