@@ -23,19 +23,25 @@
   display: flex;
   justify-content: center;
   align-items: center; 
+  --animate-duration: 6s;
   img {
-     width: 60px;
-     opacity: .5;
-     animation-name: boton-bajar;
-     animation-iteration-count: infinite;
-    animation-timing-function: ease-in;     
-    animation-duration: 2s;
+     width: 35px;
+     opacity: .3;
   }
 }
-@keyframes boton-bajar {
-  0% {width: 60px;}
-  25% {transform: translate(0px 50px);}
-  100% {transform: translate(0px 100px);}
+
+/*Boton back top*/
+.boton-menu {
+position: sticky;
+top: 90%;
+margin-left: 92%;
+width: 25px;
+transform: rotate(180deg);
+--animate-duration: 4s;
+@media (max-width: $media-phone) {
+  margin-left: 85%;
+  top: 93%;
+}
 }
 
 // btn bootstrap outline 

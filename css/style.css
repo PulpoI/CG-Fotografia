@@ -109,7 +109,7 @@ body {
 
 /*Main desk*/
 .main {
-  margin-top: -70px;
+  margin-top: -90px;
   padding-bottom: 30px;
   color: #F0F2AE; }
 
@@ -211,22 +211,24 @@ body {
   height: 1030px;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  --animate-duration: 6s; }
   .boton-bajar img {
-    width: 60px;
-    opacity: .5;
-    animation-name: boton-bajar;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 2s; }
+    width: 35px;
+    opacity: .3; }
 
-@keyframes boton-bajar {
-  0% {
-    width: 60px; }
-  25% {
-    transform: translate(0px 50px); }
-  100% {
-    transform: translate(0px 100px); } }
+/*Boton back top*/
+.boton-menu {
+  position: sticky;
+  top: 90%;
+  margin-left: 92%;
+  width: 25px;
+  transform: rotate(180deg);
+  --animate-duration: 4s; }
+  @media (max-width: 575.98px) {
+    .boton-menu {
+      margin-left: 85%;
+      top: 93%; } }
 
 .btn-outline-light {
   color: #f8f9fa;
