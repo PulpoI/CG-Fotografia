@@ -1,0 +1,16 @@
+.seccion-tres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:$color-dark;
+    .seccion-tres__texto {
+        color: $color-white;
+        text-align: center;
+        padding: 40px;
+    }
+    .seccion-tres__ig {
+        width: 500px;
+        padding: 0px 0px 30px 0px;
+    }
+
+}

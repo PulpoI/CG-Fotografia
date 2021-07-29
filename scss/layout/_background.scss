@@ -50,7 +50,7 @@ body {
     text-shadow: $shadow-text;
     position: absolute;
     @media (max-width: $media-phone) {
-        padding-top: 200px;
+        padding-top: 100px;
         margin: 0px 5px;
     }
 }
@@ -69,4 +69,10 @@ body {
 .bg-1--sobre-mi {
     @media (max-width: $media-phone) {
     background-image: url(../assets/bg2-3.jpg);}
+}
+/*BG 2 - Sobre mi*/
+//Desk
+.bg-2--sobre-mi {
+    @extend .bg-2;
+    background-image: url(../assets/DSC4752.jpg);
 }

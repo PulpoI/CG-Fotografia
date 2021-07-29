@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
-.main .main__foto--vertical, .main .main__foto--horizontal, .carousel-fade img, .seccion-dos__fotos img {
+.main .main__foto--vertical, .main .main__foto--horizontal, .carousel-fade img, .seccion-dos__fotos img, .seccion-dos__sobre-mi img {
   border: 2px solid #F0F2AE;
   border-radius: 8px;
   box-shadow: 2px 2px 15px 0px #F0F2AE; }
@@ -34,7 +34,7 @@ body {
       background-image: url(../assets/bg-3.jpg); } }
 
 /*BG 2 - Index fixed*/
-.bg-2 {
+.bg-2, .bg-2--sobre-mi {
   background-image: url(../assets/bg2.jpg);
   background-size: cover;
   height: 800px;
@@ -42,12 +42,12 @@ body {
   background-position-y: center;
   background-attachment: fixed; }
   @media (max-width: 991.98px) {
-    .bg-2 {
+    .bg-2, .bg-2--sobre-mi {
       background-image: url(../assets/bg2-2.jpg);
       background-position-y: 0px;
       background-position: center; } }
   @media (max-width: 575.98px) {
-    .bg-2 {
+    .bg-2, .bg-2--sobre-mi {
       background-image: url(../assets/bg2-3.jpg);
       background-position: center; } }
 
@@ -63,7 +63,7 @@ body {
   position: absolute; }
   @media (max-width: 575.98px) {
     .bg-2__frase {
-      padding-top: 200px;
+      padding-top: 100px;
       margin: 0px 5px; } }
 
 /*BG 1 - Sobre mi*/
@@ -77,6 +77,10 @@ body {
 @media (max-width: 575.98px) {
   .bg-1--sobre-mi {
     background-image: url(../assets/bg2-3.jpg); } }
+
+/*BG 2 - Sobre mi*/
+.bg-2--sobre-mi {
+  background-image: url(../assets/DSC4752.jpg); }
 
 /*Header Nav*/
 .navbar .logo {
@@ -148,7 +152,7 @@ body {
 .carousel-inner {
   overflow: unset; }
 
-.main .main__foto--vertical, .main .main__foto--horizontal, .carousel-fade img, .seccion-dos__fotos img {
+.main .main__foto--vertical, .main .main__foto--horizontal, .carousel-fade img, .seccion-dos__fotos img, .seccion-dos__sobre-mi img {
   border: 2px solid #F0F2AE;
   border-radius: 8px;
   box-shadow: 2px 2px 15px 0px #F0F2AE; }
@@ -156,6 +160,7 @@ body {
 .seccion-dos {
   background-color: #f8f9fa; }
 
+/*Seccion-dos Index*/
 .seccion-dos__header {
   text-align: center;
   margin: 0px 200px;
@@ -202,6 +207,27 @@ body {
   bottom: 150px;
   color: white; }
 
+/*Seccion dos - Sobre mi*/
+.seccion-dos__sobre-mi {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 80%;
+  margin: 0px auto;
+  padding-bottom: 60px; }
+  @media (max-width: 991.98px) {
+    .seccion-dos__sobre-mi {
+      width: 100%; } }
+  @media (max-width: 575.98px) {
+    .seccion-dos__sobre-mi {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .seccion-dos__sobre-mi img, .seccion-dos__sobre-mi p {
+        margin: 10px 0px; }
+      .seccion-dos__sobre-mi .col-6 {
+        width: 90%; } }
+
 .btn-primary {
   color: #594F57;
   background-color: #f8f9fa;
@@ -223,7 +249,7 @@ body {
   --animate-duration: 6s; }
   .boton-bajar img {
     width: 35px;
-    opacity: .3; }
+    opacity: .4; }
 
 /*Boton back top*/
 .boton-menu {
@@ -380,3 +406,16 @@ footer .copy a:hover {
   .container-fluid {
     padding-left: 0;
     padding-right: 0; } }
+
+.seccion-tres {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #594F57; }
+  .seccion-tres .seccion-tres__texto {
+    color: #f8f9fa;
+    text-align: center;
+    padding: 40px; }
+  .seccion-tres .seccion-tres__ig {
+    width: 500px;
+    padding: 0px 0px 30px 0px; }

@@ -5,6 +5,7 @@
     background-color: $color-white;
 }
 
+/*Seccion-dos Index*/
 .seccion-dos__header {
     text-align: center;
     margin: 0px 200px;
@@ -16,7 +17,6 @@
         margin: 0px 10px;
     }
 }
-
 .seccion-dos__fotos {
     display: flex;
     flex-wrap: wrap;
@@ -49,10 +49,38 @@
 .foto-2 {grid-area: foto-2;}
 .foto-3 {grid-area: foto-3;}
 
-
 .seccion-dos__texto {
     text-align: center;
     position: relative;
     bottom: 150px;
     color: white;
+}
+
+/*Seccion dos - Sobre mi*/
+.seccion-dos__sobre-mi {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    margin: 0px auto;
+    padding-bottom: 60px;
+    img {
+        @extend %border-foto;
+    }
+    @media (max-width: $media-tablet) {
+        width: 100%;
+    }
+
+    @media (max-width: $media-phone) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img, p{
+            margin: 10px 0px;
+        }
+        .col-6 {
+            width: 90%;
+        }
+    }
+
 }
