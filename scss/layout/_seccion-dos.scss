@@ -2,7 +2,10 @@
 @import '../utilities/extend';
 
 .seccion-dos {
+    /*
     background-color: $color-white;
+    */
+    background-image: url(../assets/img/image-light.webp);
 }
 
 /*Seccion-dos Index*/
@@ -12,10 +15,9 @@
     padding: 40px;
     @media (max-width: $media-tablet) {
         margin: 0px 20px;
+        padding: 10px;
     }
-    @media (max-width: $media-phone) {
-        margin: 0px 10px;
-    }
+   
 }
 .seccion-dos__fotos {
     display: flex;

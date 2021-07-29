@@ -8,6 +8,9 @@
     h2, p {
         text-shadow: $shadow-text;
     }
+    a {
+        text-shadow: none
+    }
 }
 //Sobre mi
 .carousel-fade img{

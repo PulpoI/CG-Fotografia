@@ -2,7 +2,11 @@
 @import '../base/color';
 
 body {
-    background-color: $color-bg-dark;
+    /*
+    background-image: radial-gradient(circle at 89.21% 53.43%, #ffc076 0, #f8b173 16.67%, #eaa170 33.33%, #d8906c 50%, #c58067 66.67%, #b37363 83.33%, #a4685f 100%);;
+    */ 
+    background-image: url(../assets/img/image-1.webp);
+
 }
 /*BG 1 - Index*/
 .bg-1 {

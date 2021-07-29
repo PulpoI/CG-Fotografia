@@ -1,9 +1,25 @@
+// font-family: 'bromello', sans-serif;
 @font-face {
     font-family: 'bromello';
     font-style: normal;
     font-weight: 400;
     src: local('bromello'), url('https://fonts.cdnfonts.com/s/13894/bromello.woff') format('woff');}
-// font-family: 'bromello', sans-serif;
-@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
-//font-family: 'Reenie Beanie', cursive;
 
+//font-family: 'Reenie Beanie', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
+//font-family: 'Source Code Pro', monospace;
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,600;1,500&display=swap');
+
+//font-family: 'Oswald', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Source+Code+Pro:ital,wght@0,600;1,500&display=swap');
+
+
+body {
+    p {
+        font-family: 'Source Code Pro', monospace;
+    }
+    h1, h2,h3,h4 {
+        font-family: 'Oswald', sans-serif;
+    }
+}
