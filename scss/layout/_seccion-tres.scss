@@ -17,7 +17,22 @@
     }
 
 }
-
 .instagram-media{
     min-width: 250px!important;
+}
+/*Curso*/
+//Curso - Precio
+.curso-precio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+}
+//Bootstrap
+.bg-primary {
+    background-color: $color-dark!important;
+}
+.border-primary {
+    border-color: $color-dark!important;    
 }

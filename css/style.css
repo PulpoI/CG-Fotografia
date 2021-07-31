@@ -25,6 +25,9 @@ body h1 {
 body h2, body h3, body h4 {
   font-family: 'Raleway', sans-serif; }
 
+body li {
+  font-family: 'Raleway', sans-serif; }
+
 body a {
   font-family: 'Raleway', sans-serif; }
 
@@ -185,6 +188,9 @@ body {
 .curso-img {
   width: 130vh;
   margin-top: -30px; }
+  @media (max-width: 991.98px) {
+    .curso-img {
+      width: 100%; } }
 
 #myCarousel {
   color: #F0F2AE; }
@@ -296,8 +302,8 @@ body {
   align-items: center;
   --animate-duration: 6s; }
   .boton-bajar img {
-    width: 35px;
-    opacity: .4; }
+    width: 45px;
+    opacity: .6; }
 
 /*Boton back top*/
 .boton-menu {
@@ -470,3 +476,17 @@ footer .copy a:hover {
 
 .instagram-media {
   min-width: 250px !important; }
+
+/*Curso*/
+.curso-precio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  text-align: center; }
+
+.bg-primary {
+  background-color: #594F57 !important; }
+
+.border-primary {
+  border-color: #594F57 !important; }

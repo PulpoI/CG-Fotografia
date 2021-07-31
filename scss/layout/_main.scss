@@ -51,4 +51,7 @@
    width: 130vh;
    margin-top: -30px;
    @extend %border-foto;
+   @media (max-width: $media-tablet) {
+       width: 100%;
+   }
 }
