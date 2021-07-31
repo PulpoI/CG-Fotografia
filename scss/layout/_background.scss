@@ -2,10 +2,8 @@
 @import '../base/color';
 
 body {
-    /*
+ 
     background-image: radial-gradient(circle at 89.21% 53.43%, #ffc076 0, #f8b173 16.67%, #eaa170 33.33%, #d8906c 50%, #c58067 66.67%, #b37363 83.33%, #a4685f 100%);;
-    */ 
-    background-image: url(../assets/img/image-1.webp);
 
 }
 /*BG 1 - Index*/
@@ -79,4 +77,24 @@ body {
 .bg-2--sobre-mi {
     @extend .bg-2;
     background-image: url(../assets/DSC4752.jpg);
+}
+
+
+/*BG 1 - Curso*/
+.bg-1--curso {
+    @extend .bg-1;
+    background-size: cover;
+    background-image: url(../assets/curso/DSC0455.jpg);
+}
+.main-curso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -100px;
+
+}
+.bg-2--curso {
+    @extend .bg-2;
+    background-image: url(../assets/curso/DSC0455.jpg);
+    background-color: $color-striking;
 }

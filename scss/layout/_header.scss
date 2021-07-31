@@ -6,11 +6,11 @@
         .logo {
         font-family: 'bromello', sans-serif;
         font-size: 2rem;
-        color: $color-dark;
+        color: $color-bg-dark;
         text-shadow: 2px 0px 0px $color-light;
         }
         .logo:hover {
-            color: $color-striking;
+            color: $color-dark ;
         }
         .nav-link {
             color: $color-white;

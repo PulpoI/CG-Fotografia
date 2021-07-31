@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,600;1,500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Source+Code+Pro:ital,wght@0,600;1,500&display=swap");
-.main .main__foto--vertical, .main .main__foto--horizontal, .carousel-fade img, .seccion-dos__fotos img, .seccion-dos__sobre-mi img {
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;1,300&display=swap");
+.main .main__foto--vertical, .main .main__foto--horizontal, .curso-img, .carousel-fade img, .seccion-dos__fotos img, .seccion-dos__sobre-mi img {
   border: 2px solid #F0F2AE;
   border-radius: 8px;
   box-shadow: 2px 2px 15px 0px #F0F2AE; }
@@ -16,36 +17,39 @@ body {
   src: local("bromello"), url("https://fonts.cdnfonts.com/s/13894/bromello.woff") format("woff"); }
 
 body p {
-  font-family: 'Source Code Pro', monospace; }
+  font-family: 'Raleway', sans-serif; }
 
-body h1, body h2, body h3, body h4 {
-  font-family: 'Oswald', sans-serif; }
+body h1 {
+  font-family: 'Dancing Script', cursive; }
+
+body h2, body h3, body h4 {
+  font-family: 'Raleway', sans-serif; }
+
+body a {
+  font-family: 'Raleway', sans-serif; }
 
 body {
-  /*
-    background-image: radial-gradient(circle at 89.21% 53.43%, #ffc076 0, #f8b173 16.67%, #eaa170 33.33%, #d8906c 50%, #c58067 66.67%, #b37363 83.33%, #a4685f 100%);;
-    */
-  background-image: url(../assets/img/image-1.webp); }
+  background-image: radial-gradient(circle at 89.21% 53.43%, #ffc076 0, #f8b173 16.67%, #eaa170 33.33%, #d8906c 50%, #c58067 66.67%, #b37363 83.33%, #a4685f 100%); }
 
 /*BG 1 - Index*/
-.bg-1, .bg-1--sobre-mi {
+.bg-1, .bg-1--sobre-mi, .bg-1--curso {
   background-image: url(../assets/bg.jpg);
   background-size: cover;
   height: 800px;
   background-repeat: no-repeat;
   background-position-y: -120px; }
   @media (max-width: 991.98px) {
-    .bg-1, .bg-1--sobre-mi {
+    .bg-1, .bg-1--sobre-mi, .bg-1--curso {
       background-image: url(../assets/bg-2.jpg);
       background-size: cover;
       background-position: center;
       background-position-y: -50px; } }
   @media (max-width: 575.98px) {
-    .bg-1, .bg-1--sobre-mi {
+    .bg-1, .bg-1--sobre-mi, .bg-1--curso {
       background-image: url(../assets/bg-3.jpg); } }
 
 /*BG 2 - Index fixed*/
-.bg-2, .bg-2--sobre-mi {
+.bg-2, .bg-2--sobre-mi, .bg-2--curso {
   background-image: url(../assets/bg2.jpg);
   background-size: cover;
   height: 800px;
@@ -53,12 +57,12 @@ body {
   background-position-y: center;
   background-attachment: fixed; }
   @media (max-width: 991.98px) {
-    .bg-2, .bg-2--sobre-mi {
+    .bg-2, .bg-2--sobre-mi, .bg-2--curso {
       background-image: url(../assets/bg2-2.jpg);
       background-position-y: 0px;
       background-position: center; } }
   @media (max-width: 575.98px) {
-    .bg-2, .bg-2--sobre-mi {
+    .bg-2, .bg-2--sobre-mi, .bg-2--curso {
       background-image: url(../assets/bg2-3.jpg);
       background-position: center; } }
 
@@ -93,15 +97,30 @@ body {
 .bg-2--sobre-mi {
   background-image: url(../assets/DSC4752.jpg); }
 
+/*BG 1 - Curso*/
+.bg-1--curso {
+  background-size: cover;
+  background-image: url(../assets/curso/DSC0455.jpg); }
+
+.main-curso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -100px; }
+
+.bg-2--curso {
+  background-image: url(../assets/curso/DSC0455.jpg);
+  background-color: #F2A25C; }
+
 /*Header Nav*/
 .navbar .logo {
   font-family: 'bromello', sans-serif;
   font-size: 2rem;
-  color: #594F57;
+  color: #BF7154;
   text-shadow: 2px 0px 0px #F0F2AE; }
 
 .navbar .logo:hover {
-  color: #F2A25C; }
+  color: #594F57; }
 
 .navbar .nav-link {
   color: #f8f9fa;
@@ -127,9 +146,10 @@ body {
 .main {
   margin-top: -90px;
   padding-bottom: 30px;
-  color: #F0F2AE; }
+  color: #f8f9fa; }
   .main .main--right {
-    padding-left: 70px; }
+    padding-left: 70px;
+    margin-top: 90px; }
 
 /*Main Tablet*/
 @media (max-width: 991.98px) {
@@ -161,6 +181,11 @@ body {
 .col-6 img {
   width: 100%; }
 
+/*Curso*/
+.curso-img {
+  width: 130vh;
+  margin-top: -30px; }
+
 #myCarousel {
   border-bottom: solid 100px #f8f9fa;
   color: #F0F2AE; }
@@ -175,7 +200,7 @@ body {
 .carousel-inner {
   overflow: unset; }
 
-.main .main__foto--vertical, .main .main__foto--horizontal, .carousel-fade img, .seccion-dos__fotos img, .seccion-dos__sobre-mi img {
+.main .main__foto--vertical, .main .main__foto--horizontal, .curso-img, .carousel-fade img, .seccion-dos__fotos img, .seccion-dos__sobre-mi img {
   border: 2px solid #F0F2AE;
   border-radius: 8px;
   box-shadow: 2px 2px 15px 0px #F0F2AE; }
@@ -310,9 +335,6 @@ hr {
   border-color: #BF947A;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(155, 137, 59, 0.25); }
-
-footer {
-  background: #BF7154; }
 
 footer iframe {
   height: 100%;

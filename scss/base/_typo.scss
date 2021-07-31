@@ -11,15 +11,25 @@
 //font-family: 'Source Code Pro', monospace;
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,600;1,500&display=swap');
 
-//font-family: 'Oswald', sans-serif;
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Source+Code+Pro:ital,wght@0,600;1,500&display=swap');
+//font-family: 'Dancing Script', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+//font-family: 'Raleway', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;1,300&display=swap');
 
 
 body {
     p {
-        font-family: 'Source Code Pro', monospace;
+        font-family: 'Raleway', sans-serif;
     }
-    h1, h2,h3,h4 {
-        font-family: 'Oswald', sans-serif;
+    h1 {
+        font-family: 'Dancing Script', cursive;
+    }
+    h2,h3,h4 {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    a {
+        font-family: 'Raleway', sans-serif;
     }
 }

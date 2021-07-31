@@ -2,12 +2,13 @@
 .main {
     margin-top: -90px;
     padding-bottom: 30px;
-    color: $color-light;
+    color: $color-white;
     .main__foto--vertical, .main__foto--horizontal{
         @extend %border-foto;
     }
     .main--right {
         padding-left: 70px;
+        margin-top: 90px;
     }
 }
 /*Main Tablet*/
@@ -43,4 +44,11 @@
 }
 .col-6 img {
     width: 100%;
+}
+
+/*Curso*/
+.curso-img {
+   width: 130vh;
+   margin-top: -30px;
+   @extend %border-foto;
 }
