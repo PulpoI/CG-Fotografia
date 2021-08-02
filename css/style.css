@@ -35,20 +35,20 @@ body {
   background-image: radial-gradient(circle at 89.21% 53.43%, #ffc076 0, #f8b173 16.67%, #eaa170 33.33%, #d8906c 50%, #c58067 66.67%, #b37363 83.33%, #a4685f 100%); }
 
 /*BG 1 - Index*/
-.bg-1, .bg-1--sobre-mi, .bg-1--curso, .bg-1--sesiones-infantiles {
+.bg-1, .bg-1--sobre-mi, .bg-1--curso, .bg-1--sesiones-infantiles, .bg-1--contacto {
   background-image: url(../assets/bg.jpg);
   background-size: cover;
   height: 800px;
   background-repeat: no-repeat;
   background-position-y: -120px; }
   @media (max-width: 991.98px) {
-    .bg-1, .bg-1--sobre-mi, .bg-1--curso, .bg-1--sesiones-infantiles {
+    .bg-1, .bg-1--sobre-mi, .bg-1--curso, .bg-1--sesiones-infantiles, .bg-1--contacto {
       background-image: url(../assets/bg-2.jpg);
       background-size: cover;
       background-position: center;
       background-position-y: -50px; } }
   @media (max-width: 575.98px) {
-    .bg-1, .bg-1--sobre-mi, .bg-1--curso, .bg-1--sesiones-infantiles {
+    .bg-1, .bg-1--sobre-mi, .bg-1--curso, .bg-1--sesiones-infantiles, .bg-1--contacto {
       background-image: url(../assets/bg-3.jpg); } }
 
 /*BG 2 - Index fixed*/
@@ -77,12 +77,11 @@ body {
   font-family: "Reenie Beanie", cursive;
   font-size: 4rem;
   margin: 0px 70px;
-  text-shadow: 1px 1px 2px black, 0 0 1em #F2A25C, 0 0 0.2em #F2A25C;
-  position: absolute; }
+  text-shadow: 1px 1px 2px black, 0 0 1em #F2A25C, 0 0 0.2em #F2A25C; }
   @media (max-width: 575.98px) {
     .bg-2__frase {
-      padding-top: 100px;
-      margin: 0px 5px; } }
+      padding-top: 250px;
+      margin: 0px; } }
 
 /*BG 1 - Sobre mi*/
 .bg-1--sobre-mi {
@@ -122,6 +121,9 @@ body {
   @media (max-width: 1270px) {
     .bg-1--sesiones-infantiles {
       background-position-y: -50px; } }
+
+.bg-1--contacto {
+  background-image: url(../assets/sobre-mi/DSC0220.jpg); }
 
 /*Header Nav*/
 .navbar .logo {
@@ -368,17 +370,14 @@ hr {
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(155, 137, 59, 0.25); }
 
-footer iframe {
+.form iframe {
   height: 100%;
   width: 100%; }
   @media (max-width: 991.98px) {
-    footer iframe {
+    .form iframe {
       height: 100%;
       width: 100%;
       margin: 0px; } }
-
-.row-footer {
-  --bs-gutter-x: 0rem!important; }
 
 .social-links {
   margin-top: 20px; }
@@ -408,7 +407,7 @@ footer iframe {
   .container-footer h3 {
     color: #F0F2AE; }
 
-footer .contact-form {
+.form .contact-form {
   border-radius: 25px;
   padding: 35px;
   background-color: #f8f9fa;
@@ -417,13 +416,13 @@ footer .contact-form {
   max-width: 380px;
   margin: 117px auto; }
 
-footer .contact-form h3 {
+.form .contact-form h3 {
   color: #F2A25C;
   font-size: 20px;
   text-align: center;
   margin-bottom: 20px; }
 
-footer .contact-form .form-control {
+.form .contact-form .form-control {
   margin-bottom: 20px;
   border: none;
   background-color: #F2EFC2;
@@ -431,15 +430,15 @@ footer .contact-form .form-control {
   font-size: 15px;
   padding: 25px 30px; }
 
-footer .contact-form ::-webkit-input-placeholder {
+.form .contact-form ::-webkit-input-placeholder {
   color: #594F57; }
 
-footer .contact-form textarea {
+.form .contact-form textarea {
   height: 203px;
   resize: none;
   padding-top: 20px !important; }
 
-footer .contact-form button {
+.form .contact-form button {
   background: #F2A25C;
   width: 140px;
   padding: 13px 0;
@@ -451,7 +450,7 @@ footer .contact-form button {
   display: block;
   cursor: pointer; }
 
-footer .contact-form button:hover, footer .contact-form button:visited {
+.form .contact-form button:hover, footer .contact-form button:visited {
   background: #BF947A; }
 
 footer .copy {

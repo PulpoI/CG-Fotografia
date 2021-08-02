@@ -48,10 +48,9 @@ body {
     font-size: 4rem;
     margin: 0px 70px;
     text-shadow: $shadow-text;
-    position: absolute;
     @media (max-width: $media-phone) {
-        padding-top: 100px;
-        margin: 0px 5px;
+        padding-top: 250px;
+        margin: 0px;
     }
 }
 /*BG 1 - Sobre mi*/
@@ -104,4 +103,9 @@ body {
     @media (max-width: 1270px) {
         background-position-y: -50px;;
     }
+}
+
+.bg-1--contacto {
+    @extend .bg-1;
+    background-image: url(../assets/sobre-mi/DSC0220.jpg);
 }
