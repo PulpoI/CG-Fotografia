@@ -317,16 +317,19 @@ body {
 .main .btn-outline-light {
   margin-top: 10px; }
 
-.boton-bajar {
+.boton-bajar, .boton-bajar--index {
   position: absolute;
-  height: 1030px;
   display: flex;
   align-items: center;
   --animate-duration: 6s;
-  margin-left: 48%; }
-  .boton-bajar img {
+  margin-left: 48%;
+  margin-top: 35px; }
+  .boton-bajar img, .boton-bajar--index img {
     width: 45px;
     opacity: .6; }
+
+.boton-bajar--index {
+  margin-top: 450px; }
 
 /*Boton back top*/
 .boton-menu {
