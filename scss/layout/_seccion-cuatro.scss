@@ -1,0 +1,33 @@
+.seccion-cuatro {
+    background-image: url(../assets/img/image-light.webp);
+    padding: 50px;
+    img {
+        width: 120px;
+        margin: 30px;
+        @media (max-width: $media-phone) {
+            width: 50%;
+        }
+    }
+}
+//Curso - Precio
+.curso-precio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+//Bootstrap
+.bg-primary {
+    background-color: $color-dark!important;
+}
+.border-primary {
+    border-color: $color-dark!important;    
+}
+//Sesiones infantiles
+.seccion-cuatro--infantiles {
+    @extend .seccion-cuatro;
+    @media (max-width: $media-phone) {
+        padding: 0;
+        padding-top: 20px;;
+    }
+}

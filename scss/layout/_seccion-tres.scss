@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:$color-dark;
     .seccion-tres__texto {
         color: $color-white;
         text-align: center;
@@ -20,19 +19,40 @@
 .instagram-media{
     min-width: 250px!important;
 }
-/*Curso*/
-//Curso - Precio
-.curso-precio {
+/*Curso - Seccion Tres*/
+//Que vas a aprender
+.curso-aprender {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    margin-top: 100px;
     text-align: center;
+    justify-content: space-around;
+    margin: 50px;
+    color: $color-white;
+    flex-wrap: wrap;
+    @media (max-width: $media-phone) {
+        margin: 20px;
+        p {
+            text-align: start;
+        }
+    }
+    .seccion-tres__header {
+        margin-bottom: 30px;
+        
+    }
 }
-//Bootstrap
-.bg-primary {
-    background-color: $color-dark!important;
+.seccion-tres__foto {
+    img {
+        width: 450px;
+        @extend %border-foto;
+        @media (max-width: $media-phone) {
+            width: 100%;
+        }
+    }
 }
-.border-primary {
-    border-color: $color-dark!important;    
+//Sesiones infantiles
+.caracteristicas-sesiones {
+    @extend .curso-aprender;
+    ul {
+        text-align: start;
+    }
 }

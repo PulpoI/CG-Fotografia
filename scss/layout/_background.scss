@@ -35,8 +35,8 @@ body {
         background-position: center;
     }
     @media (max-width: $media-phone) {
-        background-image: url(../assets/bg2-3.jpg);
-        background-position: center;
+        background-image: url(../assets/bg2-33.jpg);
+        width: 100%;
     }
 }
 /*BG 2 - Index frase*/
@@ -89,10 +89,19 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: -100px;
-
 }
 .bg-2--curso {
     @extend .bg-2;
-    background-image: url(../assets/curso/DSC0455.jpg);
+    background-image: url(../assets/curso/foto-1.jpg);
     background-color: $color-striking;
+}
+
+.bg-1--sesiones-infantiles {
+    @extend .bg-1;
+    height: 800px;
+    margin-bottom: -100px;
+    background-image: url(../assets/infantiles/123606278.jpg);
+    @media (max-width: 1270px) {
+        background-position-y: -50px;;
+    }
 }
