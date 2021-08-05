@@ -1,5 +1,8 @@
 /*Sesiones infantiles*/
 .seccion-cuatro {
+    @media (min-width: 1500px) {
+        background-image: url(../assets/img/image-light-2.webp);
+    }
     background-image: url(../assets/img/image-light.webp);
     padding: 50px;
     img {

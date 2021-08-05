@@ -228,6 +228,9 @@ body {
     background-color: $color-white;
     */
   background-image: url(../assets/img/image-light.webp); }
+  @media (min-width: 1500px) {
+    .seccion-dos {
+      background-image: url(../assets/img/image-light-2.webp); } }
 
 /*Seccion-dos Index*/
 .seccion-dos__header {
@@ -538,6 +541,9 @@ footer .copy a:hover {
 .seccion-cuatro, .seccion-cuatro--infantiles {
   background-image: url(../assets/img/image-light.webp);
   padding: 50px; }
+  @media (min-width: 1500px) {
+    .seccion-cuatro, .seccion-cuatro--infantiles {
+      background-image: url(../assets/img/image-light-2.webp); } }
   .seccion-cuatro img, .seccion-cuatro--infantiles img {
     width: 100px;
     margin: 30px; }

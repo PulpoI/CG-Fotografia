@@ -5,6 +5,9 @@
     /*
     background-color: $color-white;
     */
+    @media (min-width: 1500px) {
+        background-image: url(../assets/img/image-light-2.webp);
+    }
     background-image: url(../assets/img/image-light.webp);
 }
 
