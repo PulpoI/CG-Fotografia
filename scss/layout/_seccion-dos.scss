@@ -97,5 +97,8 @@
 .cursiva {
     font-family: $cursiva;
     font-size: 2rem;
+    @media (max-width: $media-phone) {
+        text-align: center!important;
+    }
 }
 

@@ -303,6 +303,9 @@ body {
 .cursiva {
   font-family: "Reenie Beanie", cursive;
   font-size: 2rem; }
+  @media (max-width: 575.98px) {
+    .cursiva {
+      text-align: center !important; } }
 
 .btn-primary, .btn-outline-primary {
   color: #594F57;
@@ -531,11 +534,12 @@ footer .copy a:hover {
 .caracteristicas-sesiones ul {
   text-align: start; }
 
+/*Sesiones infantiles*/
 .seccion-cuatro, .seccion-cuatro--infantiles {
   background-image: url(../assets/img/image-light.webp);
   padding: 50px; }
   .seccion-cuatro img, .seccion-cuatro--infantiles img {
-    width: 120px;
+    width: 100px;
     margin: 30px; }
     @media (max-width: 575.98px) {
       .seccion-cuatro img, .seccion-cuatro--infantiles img {
