@@ -19,12 +19,9 @@
 
 //Boton bajar
 .boton-bajar {
-  position: absolute;
-  display: flex;
-  align-items: center; 
+  display: block;
+  margin: 50px 50% 0 50%;
   --animate-duration: 6s;
-  margin-left: 48%;
-  margin-top: 35px;
   img {
      width: 45px;
      opacity: .6;
@@ -32,7 +29,7 @@
 }
 .boton-bajar--index {
   @extend .boton-bajar;
-  margin-top: 450px;
+  margin-top: 470px;
 }
 
 /*Boton back top*/

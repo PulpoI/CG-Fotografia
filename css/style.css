@@ -68,7 +68,8 @@ body {
     .bg-2, .bg-2--sobre-mi, .bg-2--curso {
       background-image: url(../assets/bg2-33.jpg);
       width: 100%;
-      height: 400px; } }
+      height: 400px;
+      background-blend-mode: screen; } }
 
 /*BG 2 - Index frase*/
 .bg-2__frase, .bg-1__frase {
@@ -342,18 +343,15 @@ body {
   margin-top: 10px; }
 
 .boton-bajar, .boton-bajar--index {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  --animate-duration: 6s;
-  margin-left: 48%;
-  margin-top: 35px; }
+  display: block;
+  margin: 50px 50% 0 50%;
+  --animate-duration: 6s; }
   .boton-bajar img, .boton-bajar--index img {
     width: 45px;
     opacity: .6; }
 
 .boton-bajar--index {
-  margin-top: 450px; }
+  margin-top: 470px; }
 
 /*Boton back top*/
 .boton-menu {
