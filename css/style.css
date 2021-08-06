@@ -67,10 +67,11 @@ body {
   @media (max-width: 575.98px) {
     .bg-2, .bg-2--sobre-mi, .bg-2--curso {
       background-image: url(../assets/bg2-33.jpg);
-      width: 100%; } }
+      width: 100%;
+      height: 400px; } }
 
 /*BG 2 - Index frase*/
-.bg-2__frase {
+.bg-2__frase, .bg-1__frase {
   padding-top: 350px;
   text-align: center;
   color: white;
@@ -79,9 +80,14 @@ body {
   margin: 0px 70px;
   text-shadow: 1px 1px 2px black, 0 0 1em #F2A25C, 0 0 0.2em #F2A25C; }
   @media (max-width: 575.98px) {
-    .bg-2__frase {
-      padding-top: 250px;
+    .bg-2__frase, .bg-1__frase {
+      padding-top: 130px;
       margin: 0px; } }
+
+@media (max-width: 575.98px) {
+  .bg-1__frase {
+    padding-top: 280px;
+    margin: 0px; } }
 
 /*BG 1 - Sobre mi*/
 .bg-1--sobre-mi {
@@ -103,12 +109,18 @@ body {
 .bg-1--curso {
   background-size: cover;
   background-image: url(../assets/curso/DSC0455.jpg); }
+  @media (max-width: 575.98px) {
+    .bg-1--curso {
+      background-image: url(../assets/curso/DSC0455.jpg); } }
 
 .main-curso {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: -100px; }
+  @media (max-width: 575.98px) {
+    .main-curso {
+      margin-top: -50px; } }
 
 .bg-2--curso {
   background-image: url(../assets/curso/foto-1.jpg);
@@ -166,6 +178,9 @@ body {
   .main .main--right {
     padding-left: 70px;
     margin-top: 90px; }
+    @media (max-width: 575.98px) {
+      .main .main--right {
+        margin-top: 30px; } }
 
 /*Main Tablet*/
 @media (max-width: 991.98px) {
@@ -223,13 +238,13 @@ body {
   border-radius: 8px;
   box-shadow: 2px 2px 15px 0px #F0F2AE; }
 
-.seccion-dos {
+.seccion-dos, .seccion-dos--contacto {
   /*
     background-color: $color-white;
     */
   background-image: url(../assets/img/image-light.webp); }
   @media (min-width: 1500px) {
-    .seccion-dos {
+    .seccion-dos, .seccion-dos--contacto {
       background-image: url(../assets/img/image-light-2.webp); } }
 
 /*Seccion-dos Index*/
@@ -302,6 +317,9 @@ body {
         margin: 10px 0px; }
       .seccion-dos__sobre-mi .col-6 {
         width: 90%; } }
+
+.seccion-dos--contacto {
+  margin-top: -80px; }
 
 .cursiva {
   font-family: "Reenie Beanie", cursive;
@@ -522,9 +540,10 @@ footer .copy a:hover {
   flex-wrap: wrap; }
   @media (max-width: 575.98px) {
     .curso-aprender, .caracteristicas-sesiones {
-      margin: 20px; }
+      margin: 20px 0px 0px 0px; }
       .curso-aprender p, .caracteristicas-sesiones p {
-        text-align: start; } }
+        text-align: start;
+        margin: 20px; } }
   .curso-aprender .seccion-tres__header, .caracteristicas-sesiones .seccion-tres__header {
     margin-bottom: 30px; }
 
@@ -532,6 +551,12 @@ footer .copy a:hover {
   width: 450px; }
   @media (max-width: 575.98px) {
     .seccion-tres__foto img {
+      width: 100%; } }
+
+.seccion-tres__foto video {
+  width: 350px; }
+  @media (max-width: 575.98px) {
+    .seccion-tres__foto video {
       width: 100%; } }
 
 .caracteristicas-sesiones ul {

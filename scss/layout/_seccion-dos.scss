@@ -96,6 +96,13 @@
         }
     }
 }
+
+//Contacto
+.seccion-dos--contacto {
+    @extend .seccion-dos;
+    margin-top: -80px;
+}
+
 // Page - Sesiones Infantiles
 .cursiva {
     font-family: $cursiva;

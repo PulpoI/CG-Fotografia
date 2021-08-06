@@ -30,9 +30,10 @@
     color: $color-white;
     flex-wrap: wrap;
     @media (max-width: $media-phone) {
-        margin: 20px;
+        margin: 20px 0px 0px 0px;
         p {
             text-align: start;
+            margin: 20px;
         }
     }
     .seccion-tres__header {
@@ -44,6 +45,12 @@
     img {
         width: 450px;
         @extend %border-foto;
+        @media (max-width: $media-phone) {
+            width: 100%;
+        }
+    }
+    video {
+        width: 350px;
         @media (max-width: $media-phone) {
             width: 100%;
         }

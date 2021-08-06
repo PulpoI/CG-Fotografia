@@ -9,7 +9,11 @@
     .main--right {
         padding-left: 70px;
         margin-top: 90px;
+        @media (max-width: $media-phone) {
+            margin-top: 30px;
+        }
     }
+   
 }
 /*Main Tablet*/
 @media (max-width: $media-tablet) {
@@ -55,3 +59,4 @@
        width: 100%;
    }
 }
+
