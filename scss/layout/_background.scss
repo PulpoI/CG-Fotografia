@@ -12,7 +12,9 @@ body {
     height: 800px;
     background-repeat: no-repeat;
     background-position-y: -120px;
-	animation: bg-pan-bl 8s both;
+    @media (max-width: 1500px) {
+        animation: bg-pan-bl 8s both;
+    }
     @media (max-width: $media-tablet) { 
             background-image: url(../assets/bg-2.jpg);
             background-size: cover;
@@ -115,6 +117,13 @@ body {
     background-color: $color-striking;
 }
 
+// Contacto
+.bg-1--contacto {
+    @extend .bg-1;
+    background-image: url(../assets/sobre-mi/DSC0220.jpg);
+}
+
+// Sesiones infantiles
 .bg-1--sesiones-infantiles {
     @extend .bg-1;
     height: 800px;
@@ -125,10 +134,19 @@ body {
     }
 }
 
-.bg-1--contacto {
-    @extend .bg-1;
-    background-image: url(../assets/sobre-mi/DSC0220.jpg);
+// Sesiones 15 años
+.bg-1--sesiones-15 {
+    @extend .bg-1--sesiones-infantiles;
+    background-image: url(../assets/15/DSC2039.jpg);
 }
+.bg-2--15 {
+    @extend .bg-2;
+    background-image: url(../assets/15/DSC2508.jpg);
+}
+.bg-2--15-2 {
+    @extend .bg-2;
+    background-image: url(../assets/15/DSC3913.jpg);
 
+}
 
 

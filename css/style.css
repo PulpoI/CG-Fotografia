@@ -55,26 +55,28 @@ body {
   background-image: radial-gradient(circle at 89.21% 53.43%, #ffc076 0, #f8b173 16.67%, #eaa170 33.33%, #d8906c 50%, #c58067 66.67%, #b37363 83.33%, #a4685f 100%); }
 
 /*BG 1 - Index*/
-.bg-1, .bg-1--sobre-mi, .bg-1--curso, .bg-1--sesiones-infantiles, .bg-1--contacto {
+.bg-1, .bg-1--sobre-mi, .bg-1--curso, .bg-1--contacto, .bg-1--sesiones-infantiles, .bg-1--sesiones-15 {
   background-image: url(../assets/bg.jpg);
   background-size: cover;
   height: 800px;
   background-repeat: no-repeat;
-  background-position-y: -120px;
-  animation: bg-pan-bl 8s both; }
+  background-position-y: -120px; }
+  @media (max-width: 1500px) {
+    .bg-1, .bg-1--sobre-mi, .bg-1--curso, .bg-1--contacto, .bg-1--sesiones-infantiles, .bg-1--sesiones-15 {
+      animation: bg-pan-bl 8s both; } }
   @media (max-width: 991.98px) {
-    .bg-1, .bg-1--sobre-mi, .bg-1--curso, .bg-1--sesiones-infantiles, .bg-1--contacto {
+    .bg-1, .bg-1--sobre-mi, .bg-1--curso, .bg-1--contacto, .bg-1--sesiones-infantiles, .bg-1--sesiones-15 {
       background-image: url(../assets/bg-2.jpg);
       background-size: cover;
       background-position: center;
       background-position-y: -50px; } }
   @media (max-width: 575.98px) {
-    .bg-1, .bg-1--sobre-mi, .bg-1--curso, .bg-1--sesiones-infantiles, .bg-1--contacto {
+    .bg-1, .bg-1--sobre-mi, .bg-1--curso, .bg-1--contacto, .bg-1--sesiones-infantiles, .bg-1--sesiones-15 {
       background-image: url(../assets/bg-3.jpg);
       animation: none; } }
 
 /*BG 2 - Index fixed*/
-.bg-2, .bg-2--sobre-mi, .bg-2--curso {
+.bg-2, .bg-2--sobre-mi, .bg-2--curso, .bg-2--15, .bg-2--15-2 {
   background-image: url(../assets/bg2.jpg);
   background-size: cover;
   height: 800px;
@@ -82,12 +84,12 @@ body {
   background-position-y: center;
   background-attachment: fixed; }
   @media (max-width: 991.98px) {
-    .bg-2, .bg-2--sobre-mi, .bg-2--curso {
+    .bg-2, .bg-2--sobre-mi, .bg-2--curso, .bg-2--15, .bg-2--15-2 {
       background-image: url(../assets/bg2-2.jpg);
       background-position-y: 0px;
       background-position: center; } }
   @media (max-width: 575.98px) {
-    .bg-2, .bg-2--sobre-mi, .bg-2--curso {
+    .bg-2, .bg-2--sobre-mi, .bg-2--curso, .bg-2--15, .bg-2--15-2 {
       background-image: url(../assets/bg2-33.jpg);
       width: 100%;
       height: 400px; } }
@@ -148,16 +150,25 @@ body {
   background-image: url(../assets/curso/foto-1.jpg);
   background-color: #F2A25C; }
 
-.bg-1--sesiones-infantiles {
+.bg-1--contacto {
+  background-image: url(../assets/sobre-mi/DSC0220.jpg); }
+
+.bg-1--sesiones-infantiles, .bg-1--sesiones-15 {
   height: 800px;
   margin-bottom: -100px;
   background-image: url(../assets/infantiles/123606278.jpg); }
   @media (max-width: 1270px) {
-    .bg-1--sesiones-infantiles {
+    .bg-1--sesiones-infantiles, .bg-1--sesiones-15 {
       background-position-y: -50px; } }
 
-.bg-1--contacto {
-  background-image: url(../assets/sobre-mi/DSC0220.jpg); }
+.bg-1--sesiones-15 {
+  background-image: url(../assets/15/DSC2039.jpg); }
+
+.bg-2--15 {
+  background-image: url(../assets/15/DSC2508.jpg); }
+
+.bg-2--15-2 {
+  background-image: url(../assets/15/DSC3913.jpg); }
 
 /*Header Nav*/
 .navbar .logo {
@@ -284,6 +295,7 @@ body {
   /*
     background-color: $color-white;
     */
+  padding: 30px 0px;
   background-image: url(../assets/img/image-light.webp); }
   @media (min-width: 1500px) {
     .seccion-dos, .seccion-dos--contacto {
