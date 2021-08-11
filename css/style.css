@@ -69,7 +69,8 @@ body {
       background-image: url(../assets/bg-2.jpg);
       background-size: cover;
       background-position: center;
-      background-position-y: -50px; } }
+      background-position-y: -50px;
+      animation: none; } }
   @media (max-width: 575.98px) {
     .bg-1, .bg-1--sobre-mi, .bg-1--curso, .bg-1--contacto, .bg-1--sesiones-infantiles, .bg-1--sesiones-15 {
       background-image: url(../assets/bg-3.jpg);
@@ -99,7 +100,7 @@ body {
   padding-top: 350px;
   text-align: center;
   color: white;
-  font-family: "Reenie Beanie", cursive;
+  font-family: "Reenie Beanie", cursive, italic;
   font-size: 4rem;
   margin: 0px 70px;
   text-shadow: 1px 1px 2px black, 0 0 1em #F2A25C, 0 0 0.2em #F2A25C; }
@@ -128,14 +129,23 @@ body {
 /*BG 2 - Sobre mi*/
 .bg-2--sobre-mi {
   background-image: url(../assets/DSC4752.jpg); }
+  @media (max-width: 991.98px) {
+    .bg-2--sobre-mi {
+      background-image: url(../assets/DSC4752-2.jpg); } }
+  @media (max-width: 575.98px) {
+    .bg-2--sobre-mi {
+      background-image: url(../assets/DSC4752-3.jpg); } }
 
 /*BG 1 - Curso*/
 .bg-1--curso {
   background-size: cover;
   background-image: url(../assets/curso/DSC0455.jpg); }
+  @media (max-width: 991.98px) {
+    .bg-1--curso {
+      background-image: url(../assets/curso/DSC0455-2.jpg); } }
   @media (max-width: 575.98px) {
     .bg-1--curso {
-      background-image: url(../assets/curso/DSC0455.jpg); } }
+      background-image: url(../assets/curso/DSC0455-3.jpg); } }
 
 .main-curso {
   display: flex;
@@ -149,9 +159,21 @@ body {
 .bg-2--curso {
   background-image: url(../assets/curso/foto-1.jpg);
   background-color: #F2A25C; }
+  @media (max-width: 991.98px) {
+    .bg-2--curso {
+      background-image: url(../assets/curso/foto-2.jpg); } }
+  @media (max-width: 575.98px) {
+    .bg-2--curso {
+      background-image: url(../assets/curso/foto-3.jpg); } }
 
 .bg-1--contacto {
   background-image: url(../assets/sobre-mi/DSC0220.jpg); }
+  @media (max-width: 991.98px) {
+    .bg-1--contacto {
+      background-image: url(../assets/sobre-mi/DSC0220-2.jpg); } }
+  @media (max-width: 575.98px) {
+    .bg-1--contacto {
+      background-image: url(../assets/sobre-mi/DSC0220-3.jpg); } }
 
 .bg-1--sesiones-infantiles, .bg-1--sesiones-15 {
   height: 800px;
@@ -160,15 +182,39 @@ body {
   @media (max-width: 1270px) {
     .bg-1--sesiones-infantiles, .bg-1--sesiones-15 {
       background-position-y: -50px; } }
+  @media (max-width: 991.98px) {
+    .bg-1--sesiones-infantiles, .bg-1--sesiones-15 {
+      background-image: url(../assets/infantiles/123606278-2.jpg); } }
+  @media (max-width: 575.98px) {
+    .bg-1--sesiones-infantiles, .bg-1--sesiones-15 {
+      background-image: url(../assets/infantiles/123606278.jpg); } }
 
 .bg-1--sesiones-15 {
   background-image: url(../assets/15/DSC2039.jpg); }
+  @media (max-width: 991.98px) {
+    .bg-1--sesiones-15 {
+      background-image: url(../assets/15/DSC2039-2.jpg); } }
+  @media (max-width: 575.98px) {
+    .bg-1--sesiones-15 {
+      background-image: url(../assets/15/DSC2039-3.jpg); } }
 
 .bg-2--15 {
   background-image: url(../assets/15/DSC2508.jpg); }
+  @media (max-width: 991.98px) {
+    .bg-2--15 {
+      background-image: url(../assets/15/DSC2508-2.jpg); } }
+  @media (max-width: 575.98px) {
+    .bg-2--15 {
+      background-image: url(../assets/15/DSC2508-3.jpg); } }
 
 .bg-2--15-2 {
   background-image: url(../assets/15/DSC3913.jpg); }
+  @media (max-width: 991.98px) {
+    .bg-2--15-2 {
+      background-image: url(../assets/15/DSC3913-2.jpg); } }
+  @media (max-width: 575.98px) {
+    .bg-2--15-2 {
+      background-image: url(../assets/15/DSC3913-3.jpg); } }
 
 /*Header Nav*/
 .navbar .logo {
@@ -626,6 +672,9 @@ footer .copy a:hover {
     @media (max-width: 575.98px) {
       .seccion-cuatro img, .seccion-cuatro--infantiles img {
         width: 50%; } }
+  @media (max-width: 575.98px) {
+    .seccion-cuatro, .seccion-cuatro--infantiles {
+      padding: 0px; } }
 
 .curso-precio {
   display: flex;
@@ -642,4 +691,10 @@ footer .copy a:hover {
 @media (max-width: 575.98px) {
   .seccion-cuatro--infantiles {
     padding: 0;
-    padding-top: 20px; } }
+    padding-top: 20px; }
+    .seccion-cuatro--infantiles .container-xl {
+      padding: 0; } }
+
+@media (max-width: 575.98px) {
+  .medios-de-pago {
+    background-image: url(../assets/img/image-light-2.webp); } }

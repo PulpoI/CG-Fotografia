@@ -12,6 +12,9 @@
             width: 50%;
         }
     }
+    @media (max-width: $media-phone) {
+        padding: 0px;
+    }
 }
 //Curso - Precio
 .curso-precio {
@@ -33,5 +36,14 @@
     @media (max-width: $media-phone) {
         padding: 0;
         padding-top: 20px;;
+        .container-xl {
+            padding: 0;
+        }
     }
+}
+.medios-de-pago {
+    @media (max-width: $media-phone) {
+        background-image: url(../assets/img/image-light-2.webp);
+    }
+    
 }

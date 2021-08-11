@@ -20,6 +20,7 @@ body {
             background-size: cover;
             background-position: center;
             background-position-y: -50px;
+            animation: none;
         }
     @media (max-width: $media-phone) {
             background-image: url(../assets/bg-3.jpg);
@@ -80,26 +81,34 @@ body {
     @media (max-width: $media-tablet) {
     background-image: url(../assets/bg2-2.jpg);}
 }
-//Phone
+
 .bg-1--sobre-mi {
     @media (max-width: $media-phone) {
     background-image: url(../assets/bg2-3.jpg);}
 }
+
 /*BG 2 - Sobre mi*/
-//Desk
 .bg-2--sobre-mi {
     @extend .bg-2;
     background-image: url(../assets/DSC4752.jpg);
+    @media (max-width: $media-tablet) {
+        background-image: url(../assets/DSC4752-2.jpg);
+    }
+    @media (max-width: $media-phone) {
+        background-image: url(../assets/DSC4752-3.jpg);
+    }
 }
-
 
 /*BG 1 - Curso*/
 .bg-1--curso {
     @extend .bg-1;
     background-size: cover;
     background-image: url(../assets/curso/DSC0455.jpg);
+    @media (max-width: $media-tablet) {
+        background-image: url(../assets/curso/DSC0455-2.jpg);
+    }
     @media (max-width: $media-phone) {
-        background-image: url(../assets/curso/DSC0455.jpg);
+        background-image: url(../assets/curso/DSC0455-3.jpg);
 }
 }
 .main-curso {
@@ -115,12 +124,23 @@ body {
     @extend .bg-2;
     background-image: url(../assets/curso/foto-1.jpg);
     background-color: $color-striking;
+    @media (max-width: $media-tablet) {
+        background-image: url(../assets/curso/foto-2.jpg);
+    }
+    @media (max-width: $media-phone) {
+        background-image: url(../assets/curso/foto-3.jpg);
 }
-
+}
 // Contacto
 .bg-1--contacto {
     @extend .bg-1;
     background-image: url(../assets/sobre-mi/DSC0220.jpg);
+    @media (max-width: $media-tablet) {
+        background-image: url(../assets/sobre-mi/DSC0220-2.jpg);
+    }
+    @media (max-width: $media-phone) {
+        background-image: url(../assets/sobre-mi/DSC0220-3.jpg);
+    }
 }
 
 // Sesiones infantiles
@@ -130,7 +150,13 @@ body {
     margin-bottom: -100px;
     background-image: url(../assets/infantiles/123606278.jpg);
     @media (max-width: 1270px) {
-        background-position-y: -50px;;
+        background-position-y: -50px;
+    }
+    @media (max-width: $media-tablet) {
+        background-image: url(../assets/infantiles/123606278-2.jpg);
+    }
+    @media (max-width: $media-phone) {
+        background-image: url(../assets/infantiles/123606278.jpg);
     }
 }
 
@@ -138,15 +164,32 @@ body {
 .bg-1--sesiones-15 {
     @extend .bg-1--sesiones-infantiles;
     background-image: url(../assets/15/DSC2039.jpg);
+    @media (max-width: $media-tablet) {
+        background-image: url(../assets/15/DSC2039-2.jpg);
+    }
+    @media (max-width: $media-phone) {
+        background-image: url(../assets/15/DSC2039-3.jpg);
+    }
 }
 .bg-2--15 {
     @extend .bg-2;
     background-image: url(../assets/15/DSC2508.jpg);
+    @media (max-width: $media-tablet) {
+        background-image: url(../assets/15/DSC2508-2.jpg);
+    }
+    @media (max-width: $media-phone) {
+        background-image: url(../assets/15/DSC2508-3.jpg);
+    }
 }
 .bg-2--15-2 {
     @extend .bg-2;
     background-image: url(../assets/15/DSC3913.jpg);
-
+    @media (max-width: $media-tablet) {
+        background-image: url(../assets/15/DSC3913-2.jpg);
+    }
+    @media (max-width: $media-phone) {
+        background-image: url(../assets/15/DSC3913-3.jpg);
+    }
 }
 
 
