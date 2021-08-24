@@ -108,10 +108,12 @@
             <div class="content-us">
                 <div class="contact-form" id="contact">
                   <h3 class="text-uppercase">Contactate conmigo</h3>
-                  <input type="text" class="form-control" placeholder="Tu Nombre">
-                  <input type="text" class="form-control" placeholder="Tu Email">
-                  <textarea class="form-control" placeholder="Tu Mensaje"></textarea>
-                  <button type="submit">Enviar</button>
+                  <form action="php/contact.php" method="post">
+                    <input id="nombre" name="nombre" type="text" class="form-control" placeholder="Tu Nombre" required>
+                    <input id="email" name="email" type="email" class="form-control" placeholder="Tu Email" required>
+                    <textarea id="mensaje" name="mensaje" class="form-control" placeholder="Tu Mensaje" required></textarea>
+                    <input class="btn-outline-success" id="submit" type="submit" name="submit" value="Enviar"></input>
+                  </form>  
                 </div>
               </div>
           </div>
