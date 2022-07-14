@@ -1,265 +1,514 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Cache-->
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Last-Modified" content="0" />
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
     <!--Inicio SEO-->
     <!--Keywords-->
-    <meta name="keywords" content="fotógrafo, profesional, sesiones, fiestas, artístico"> 
+    <meta
+      name="keywords"
+      content="fotógrafo, profesional, sesiones, fiestas, artístico"
+    />
     <!-- Titulo -->
     <title>Camila Gonzalez - Fotografía Profesional</title>
     <!-- Descripción -->
-    <meta name="description" content="Fotografía profesional en Chacabuco (6740). Eventos, Fiestas y Sesiones personalizadas">
+    <meta
+      name="description"
+      content="Fotografía profesional en Chacabuco (6740). Eventos, Fiestas y Sesiones personalizadas"
+    />
     <!-- Autor -->
-    <meta name="author" content="Pablo Duarte">
+    <meta name="author" content="Pablo Duarte" />
     <!-- Copyright -->
-    <meta name="copyright" content="Camila Gonzalez">
+    <meta name="copyright" content="Camila Gonzalez" />
     <!-- Robots -->
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index, follow" />
     <!-- Open graph -->
-    <meta property="og:type" content="website">
-    <meta property= "og:title" content="Camila Gonzalez - Fotografía Profesional">
-    <meta property= "og:description" content="Fotografía profesional en Chacabuco (6740). Eventos, Fiestas y Sesiones personalizadas">
-    <meta property= "og:image" content="assets/img/camera.png">
-    <meta property= "og:url" content="https://www.camilagonzalez.ar">
-    <meta property= "og:locale" content="es_ES">
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Camila Gonzalez - Fotografía Profesional"
+    />
+    <meta
+      property="og:description"
+      content="Fotografía profesional en Chacabuco (6740). Eventos, Fiestas y Sesiones personalizadas"
+    />
+    <meta property="og:image" content="assets/img/camera.png" />
+    <meta property="og:url" content="https://www.camilagonzalez.ar" />
+    <meta property="og:locale" content="es_ES" />
     <!-- fin SEO -->
     <!--Bootstrap-->
-    <link rel="stylesheet" href="components/bootstrap.css">
+    <link rel="stylesheet" href="components/bootstrap.css" />
     <!--Estilos propios-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <!--Animate CSS-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <!--Icono navegador-->
-    <link rel="shortcut icon" href="assets/img/camera.png" type="image/x-icon">
-</head>
-<body>
-<!--Container general-->
-<div id="caja" class="caja">
-  <!--Header + BG 1-->
-  <div class="container-xxl bg-1">
-    <!--Header Navbar Bootstrap-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent ">
-        <div class="container-fluid">
-          <a class="navbar-brand logo animate__animated animate__fadeInUp" href="#">Camila Gonzalez</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse animate__animated animate__fadeInUp" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link activo" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="sobre-mi.html">Sobre mi</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="curso.html">Curso</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Servicios
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="pages/sesiones-infantiles.html">Sesiones Infantiles</a></li>
-                  <li><a class="dropdown-item" href="pages/sesiones-15.html">Book de 15</a></li>
-                  <!--
+    <link
+      rel="shortcut icon"
+      href="assets/img/camera.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!--Container general-->
+    <div id="caja" class="caja">
+      <!--Header + BG 1-->
+      <div class="container-xxl bg-1">
+        <!--Header Navbar Bootstrap-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+          <div class="container-fluid">
+            <a
+              class="navbar-brand logo animate__animated animate__fadeInUp"
+              href="#"
+              >Camila Gonzalez</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse animate__animated animate__fadeInUp"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link activo" aria-current="page" href="#"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sobre-mi.html">Sobre mi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="curso.html">Curso</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Servicios
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="pages/sesiones-infantiles.html"
+                        >Sesiones Infantiles</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="pages/sesiones-15.html"
+                        >Book de 15</a
+                      >
+                    </li>
+                    <!--
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  -->
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
-              </li>
-            </ul>
-            <!--BUSCAR-->
-            <!--
+                  --></ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+              </ul>
+              <!--BUSCAR-->
+              <!--
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Buscar</button>
             </form> -->
+            </div>
           </div>
+        </nav>
+        <!--Boton bajar-->
+        <div
+          class="boton-bajar--index animate__animated animate__flash animate__infinite"
+        >
+          <a href="#boton-bajar">
+            <img src="assets/img/flecha-abajo1.png" alt="" />
+          </a>
         </div>
-    </nav>
-    <!--Boton bajar-->
-    <div class="boton-bajar--index animate__animated animate__flash  animate__infinite">
-      <a href="#boton-bajar"> <img src="assets/img/flecha-abajo1.png" alt=""> </a>
-    </div>
-  </div>  
-  <div> <!--Boton back top-->
-      <a class="back-top" href="#"> <img class="boton-menu animate__animated animate__flash  animate__infinite"
-          src="assets/img/flecha-abajo1.png" alt=""> </a>
-    <!--Main-->
-    <main id="boton-bajar" class="container-xl">
+      </div>
+      <div>
+        <!--Boton back top-->
+        <a class="back-top" href="#">
+          <img
+            class="boton-menu animate__animated animate__flash animate__infinite"
+            src="assets/img/flecha-abajo1.png"
+            alt=""
+          />
+        </a>
+        <!--Main-->
+        <main id="boton-bajar" class="container-xl">
           <div class="row main">
-              <div class="col-6 main--left">
+            <div class="col-6 main--left">
+              <picture>
+                <source
+                  srcset="assets/DSC4584-2.jpg"
+                  media="(max-width: 991.98px)"
+                />
+                <img
+                  class="main__foto--vertical"
+                  src="assets/DSC4584.jpg"
+                  alt="niña con vestimenta atemporal fotografiada en el campo"
+                />
+              </picture>
+            </div>
+            <div class="col-6 main--right">
+              <h1>Hola soy Camila Gonzalez</h1>
+              <h2>Fotógrafa Profesional</h2>
+              <p>
+                Mi especialidad es la Fotografía Fine Art, donde el objetivo es
+                expresar una idea, un mensaje o una emoción. Mis trabajos estan
+                enfocados principalmente en niños y adolescentes. Te invito a
+                conocer lo que hago....
+              </p>
+              <picture>
+                <source
+                  srcset="assets/DSC0603-3.jpg"
+                  media="(max-width: 575.98px)"
+                />
+                <source
+                  srcset="assets/DSC0603-2.jpg"
+                  media="(max-width: 991.98px)"
+                />
+                <img
+                  class="main__foto--horizontal"
+                  src="assets/DSC0603.jpg"
+                  alt="fotografia de camila gonzalez"
+                />
+              </picture>
+              <a href="sobre-mi.html"
+                ><button type="button" class="btn btn-outline-light">
+                  Más sobre mi
+                </button></a
+              >
+            </div>
+          </div>
+        </main>
+        <!--Foto BG 2-->
+        <div class="bg-2"></div>
+        <!--Sesiones en estudio y exteriores-->
+        <section class="seccion-dos">
+          <div class="seccion-dos__header">
+            <h3>Sesiones en Estudio y Exteriores</h3>
+            <hr />
+            <p>
+              La mayor parte de mi trabajo ha sido en Sesiones Fotograficas.
+              <br />
+              Me encanta la Fotografia de Retrato. <br />
+              Lo mas importante es captar la esencia de la forma mas natural
+              posible. <br />
+              Asi fijaremos imagenes que quedaran para siempre...
+            </p>
+          </div>
+          <div class="seccion-dos__fotos">
+            <div class="foto-1">
+              <div>
                 <picture>
-                  <source srcset="assets/DSC4584-2.jpg" media="(max-width: 991.98px)">
-                  <img class="main__foto--vertical" src="assets/DSC4584.jpg" alt="niña con vestimenta atemporal fotografiada en el campo">
+                  <source
+                    srcset="assets/sesion-estudio-3.jpg"
+                    media="(max-width: 575.98px)"
+                  />
+                  <source
+                    srcset="assets/sesion-estudio-2.jpg"
+                    media="(max-width: 991.98px)"
+                  />
+                  <img
+                    src="assets/sesion-estudio.jpg"
+                    alt="niña fotografiada en estudio"
+                  />
                 </picture>
               </div>
-              <div class="col-6 main--right">
-                  <h1>Hola soy Camila Gonzalez</h1>
-                  <h2>Fotógrafa Profesional</h2>
+              <div class="seccion-dos__texto">
+                <h4>ESTUDIO</h4>
+                <p>
+                  Sesiones con iluminación artificial <br />
+                  con grandes detalles
+                </p>
+                <a href="pages/sesiones-infantiles.html"
+                  ><button type="button" class="btn btn-outline-light">
+                    Ver mas
+                  </button></a
+                >
+              </div>
+            </div>
+            <div class="foto-2">
+              <div>
+                <picture>
+                  <source
+                    srcset="assets/DSC4717-3.jpg"
+                    media="(max-width: 575.98px)"
+                  />
+                  <source
+                    srcset="assets/DSC4717-2.jpg"
+                    media="(max-width: 991.98px)"
+                  />
+                  <img
+                    src="assets/DSC4717.jpg"
+                    alt="niña fotografiada en tranquera de campo"
+                  />
+                </picture>
+              </div>
+              <div class="seccion-dos__texto">
+                <h4>EXTERIOR</h4>
+                <p>
+                  ¡Mis favoritas! Iluminación natural <br />
+                  y locaciones a elección.
+                </p>
+                <a href="pages/sesiones-15.html"
+                  ><button type="button" class="btn btn-outline-light">
+                    Ver mas
+                  </button></a
+                >
+              </div>
+            </div>
+            <div class="foto-3">
+              <picture>
+                <source
+                  srcset="assets/collage-2.jpg"
+                  media="(max-width: 575.98px)"
+                />
+                <source
+                  srcset="assets/DSC4752-2.jpg"
+                  media="(max-width: 991.98px)"
+                />
+                <img
+                  src="assets/collage.jpg"
+                  alt="niña fotografiada en el campo"
+                />
+              </picture>
+              <div class="seccion-dos__texto">
+                <h4>SESION EXPRESS</h4>
+                <p>
+                  Sesiones Rápidas. <br />
+                  En estudio o exterior a elección.
+                </p>
+                <a href="pages/sesiones-infantiles.html"
+                  ><button type="button" class="btn btn-outline-light">
+                    Ver mas
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Carrusel portfolio-->
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <picture>
+                <source
+                  srcset="assets/DSC4678-3.jpg"
+                  media="(max-width: 575.98px)"
+                />
+                <source
+                  srcset="assets/carru-3-3.jpg"
+                  media="(max-width: 991.98px)"
+                />
+                <img src="assets/carru-3.jpg" width="100%" alt="" />
+              </picture>
+
+              <div class="container">
+                <div class="carousel-caption text-start">
+                  <h2>Visita mi Portfolio</h2>
                   <p>
-                    Mi especialidad es la Fotografía Fine Art, donde el objetivo es expresar una idea, un mensaje o una emoción.
-                    Mis trabajos estan enfocados principalmente en niños y adolescentes. Te invito a conocer lo que hago....</p>
-                  <picture>
-                      <source srcset="assets/DSC0603-3.jpg" media="(max-width: 575.98px)">
-                      <source srcset="assets/DSC0603-2.jpg" media="(max-width: 991.98px)">
-                      <img class="main__foto--horizontal" src="assets/DSC0603.jpg" alt="fotografia de camila gonzalez">
-                  </picture>
-                  <a href="sobre-mi.html"><button type="button"  class="btn btn-outline-light">Más sobre mi</button></a>  
+                    Conoce algunos de mis ultimos trabajos. Una selección de las
+                    mejores tomas
+                  </p>
+                  <p>
+                    <a
+                      class="btn btn-lg btn-primary"
+                      href="pages/sesiones-15.html"
+                      >Ver Portfolio</a
+                    >
+                  </p>
+                </div>
               </div>
-          </div> 
-    </main>
-    <!--Foto BG 2-->
-    <div class="bg-2">
-       
-    </div> 
-    <!--Sesiones en estudio y exteriores-->
-    <section class="seccion-dos">
-        <div class="seccion-dos__header">
-          <h3>Sesiones en Estudio y Exteriores</h3>
-          <hr>
-          <p>La mayor parte de mi trabajo ha sido en Sesiones Fotograficas. 
-            <br> Me encanta la Fotografia de Retrato. <br>
-            Lo mas importante es captar la esencia de la forma mas natural posible. <br>
-            Asi fijaremos imagenes que quedaran para siempre...</p>
-        </div>  
-        <div class="seccion-dos__fotos">
-          <div class="foto-1">
-            <div>
-              <picture>
-                <source srcset="assets/sesion-estudio-3.jpg" media="(max-width: 575.98px)">
-                <source srcset="assets/sesion-estudio-2.jpg" media="(max-width: 991.98px)">
-                <img src="assets/sesion-estudio.jpg" alt="niña fotografiada en estudio">
+            </div>
+            <div class="carousel-item">
+              <picture class="grilla-tablet">
+                <source
+                  srcset="assets/DSC4597-3.jpg"
+                  media="(max-width: 575.98px)"
+                />
+                <source
+                  class="foto--tablet"
+                  srcset="assets/carru-1-2.jpg"
+                  media="(max-width: 991.98px)"
+                />
+                <img src="assets/carru-1.jpg" width="100%" alt="" />
               </picture>
+
+              <div class="container">
+                <div class="carousel-caption">
+                  <h2>Curso básico de Fotografia</h2>
+                  <p>Un curso intensivo para los amantes de la Fotografia.</p>
+                  <p>
+                    <a class="btn btn-lg btn-primary" href="curso.html"
+                      >Ver Curso</a
+                    >
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="seccion-dos__texto">
-              <h4>ESTUDIO</h4>
-              <p>Sesiones con iluminación artificial <br>
-                con grandes detalles</p>
-                <a href="pages/sesiones-infantiles.html"><button type="button" class="btn btn-outline-light">Ver mas</button></a> 
-            </div>
-          </div>
-          <div class="foto-2">
-            <div>
-              <picture>
-                <source srcset="assets/DSC4717-3.jpg" media="(max-width: 575.98px)">
-                <source srcset="assets/DSC4717-2.jpg" media="(max-width: 991.98px)">
-                <img src="assets/DSC4717.jpg" alt="niña fotografiada en tranquera de campo">
+            <div class="carousel-item">
+              <picture class="grilla-tablet">
+                <source
+                  srcset="assets/DSC4611-3.jpg"
+                  media="(max-width: 575.98px)"
+                />
+                <source
+                  class="foto--tablet"
+                  srcset="assets/carru-2-2.jpg"
+                  media="(max-width: 991.98px)"
+                />
+                <img src="assets/carru-2.jpg" width="100%" alt="" />
               </picture>
-            </div>
-            <div class="seccion-dos__texto">
-              <h4>EXTERIOR</h4>
-              <p>¡Mis favoritas!
-                Iluminación natural <br> y locaciones a elección.</p>
-                <a href="pages/sesiones-15.html"><button type="button" class="btn btn-outline-light">Ver mas</button></a>
-            </div>
-          </div>
-          <div class="foto-3">
-            <picture>
-              <source srcset="assets/collage-2.jpg" media="(max-width: 575.98px)">
-              <source srcset="assets/DSC4752-2.jpg" media="(max-width: 991.98px)">
-              <img src="assets/collage.jpg" alt="niña fotografiada en el campo">
-            </picture>
-            <div class="seccion-dos__texto">
-              <h4>SESION EXPRESS</h4>
-              <p>Sesiones Rápidas. <br>
-                En estudio o exterior a elección.</p>
-                <a href="pages/sesiones-infantiles.html"><button type="button" class="btn btn-outline-light">Ver mas</button></a> 
-            </div>
-          </div>
-        </div>
-    </section>
-    <!--Carrusel portfolio-->
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">  
-            <picture>
-              <source srcset="assets/DSC4678-3.jpg" media="(max-width: 575.98px)">
-              <source srcset="assets/carru-3-3.jpg" media="(max-width: 991.98px)">
-              <img src="assets/carru-3.jpg" width="100%" alt="">
-            </picture>
-            
-            <div class="container">
-              <div class="carousel-caption text-start">
-                <h2>Visita mi Portfolio</h2>
-                <p>Conoce algunos de mis ultimos trabajos. Una selección de las mejores tomas</p>
-                <p><a class="btn btn-lg btn-primary" href="pages/sesiones-15.html">Ver Portfolio</a></p>
+              <div class="container">
+                <div class="carousel-caption text-end">
+                  <h2>Todo lo que ofrezco</h2>
+                  <p>
+                    Hecha un vistazo a mis servicios. Seguro encontraras lo que
+                    estas buscando
+                  </p>
+                  <p>
+                    <a
+                      class="btn btn-lg btn-primary"
+                      href="pages/sesiones-infantiles.html"
+                      >Servicios</a
+                    >
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <picture class="grilla-tablet">
-              <source srcset="assets/DSC4597-3.jpg" media="(max-width: 575.98px)">
-              <source class="foto--tablet" srcset="assets/carru-1-2.jpg" media="(max-width: 991.98px)">
-              <img src="assets/carru-1.jpg" width="100%" alt="">
-            </picture>
-            
-            <div class="container">
-              <div class="carousel-caption">
-                <h2>Curso básico de Fotografia</h2>
-                <p>Un curso intensivo para los amantes de la Fotografia.</p>
-                <p><a class="btn btn-lg btn-primary" href="curso.html">Ver Curso</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <picture class="grilla-tablet">
-              <source srcset="assets/DSC4611-3.jpg" media="(max-width: 575.98px)">
-              <source class="foto--tablet" srcset="assets/carru-2-2.jpg" media="(max-width: 991.98px)">
-              <img src="assets/carru-2.jpg" width="100%" alt="">
-            </picture>
-            <div class="container">
-              <div class="carousel-caption text-end">
-                <h2>Todo lo que ofrezco</h2>
-                <p>Hecha un vistazo a mis servicios. Seguro encontraras lo que estas buscando</p>
-                <p><a class="btn btn-lg btn-primary" href="pages/sesiones-infantiles.html">Servicios</a></p>
-              </div>
-            </div>
-          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <!--Footer-->
+        <footer class="container-fluid p-0 pr-0">
+          <div class="container-footer">
+            <div>
+              <h3>Sígueme en mis redes sociales</h3>
+            </div>
+            <div class="row social-links">
+              <ul class="nav mx-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="https://www.facebook.com/CamilaGonzalezPhotographer"
+                    target="_blank"
+                    ><img src="assets/img/fb.png" alt=""
+                  /></a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="https://www.instagram.com/camilagonzalezfotografia/"
+                    target="_blank"
+                    ><img src="assets/img/ig.png" alt=""
+                  /></a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="https://api.whatsapp.com/send?phone=542352505048&text=%C2%A1Hola%20Camila!"
+                    target="_blank"
+                    ><img src="assets/img/wa.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="copy pt-4 pb-4">
+            <p>
+              &copy; 2021<a
+                href="https://www.instagram.com/camilagonzalezfotografia/"
+                target="_blank"
+              >
+                Camila Gonzalez</a
+              >
+              &nbsp; | &nbsp; Design by
+              <a href="https://www.instagram.com/pulpol_/" target="_blank"
+                >Pablo Duarte</a
+              >
+              &nbsp; | &nbsp; All rights reserved
+            </p>
+          </div>
+        </footer>
+      </div>
+      <!--Fin back top-->
+      <!--Fin container general-->
     </div>
-    <!--Footer-->
-    <footer class="container-fluid p-0 pr-0">
-      <div class="container-footer">
-        <div>
-          <h3>Sígueme en mis redes sociales</h3>
-        </div>
-        <div class="row social-links">
-          <ul class="nav mx-auto">
-            <li class="nav-item"> <a class="nav-link" href="https://www.facebook.com/CamilaGonzalezPhotographer" target="_blank"><img src="assets/img/fb.png" alt=""></a> </li>
-            <li class="nav-item"> <a class="nav-link" href="https://www.instagram.com/camilagonzalezfotografia/" target="_blank"><img src="assets/img/ig.png" alt=""></a> </li>
-            <li class="nav-item"> <a class="nav-link" href="https://api.whatsapp.com/send?phone=542352505048&text=%C2%A1Hola%20Camila!" target="_blank"><img src="assets/img/wa.png" alt=""></a> </li>
-          </ul>
-        </div>    
-      </div>
-      <div class="copy pt-4 pb-4">
-        <p> &copy; 2021<a href="https://www.instagram.com/camilagonzalezfotografia/" target="_blank"> Camila Gonzalez</a>  &nbsp;  |  &nbsp; Design by <a href="https://www.instagram.com/pulpol_/" target="_blank">Pablo Duarte</a> &nbsp; | &nbsp;  All rights reserved</p>
-      </div>
-    </footer>
-  </div> <!--Fin back top-->
-<!--Fin container general-->
-</div>
     <!--JS Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -1,238 +1,406 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Cache-->
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Last-Modified" content="0" />
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
     <!--Inicio SEO-->
     <!--Keywords-->
-    <meta name="keywords" content="fotógrafo, profesional, sesiones, fiestas, artístico"> 
+    <meta
+      name="keywords"
+      content="fotógrafo, profesional, sesiones, fiestas, artístico"
+    />
     <!-- Titulo -->
     <title>Camila Gonzalez - Curso de Fotografía</title>
     <!-- Descripción -->
-    <meta name="description" content="Curso básico de Fotografía en Chacabuco. Clases teóricas y prácticas. Vas a aprender a usar una cámara réflex o celular de forma manual,
-    componer armoniosamente diferentes fotografías y saber el manejo de luz natural y artificial.">
+    <meta
+      name="description"
+      content="Curso básico de Fotografía en Chacabuco. Clases teóricas y prácticas. Vas a aprender a usar una cámara réflex o celular de forma manual,
+    componer armoniosamente diferentes fotografías y saber el manejo de luz natural y artificial."
+    />
     <!-- Autor -->
-    <meta name="author" content="Pablo Duarte">
+    <meta name="author" content="Pablo Duarte" />
     <!-- Copyright -->
-    <meta name="copyright" content="Camila Gonzalez">
+    <meta name="copyright" content="Camila Gonzalez" />
     <!-- Open graph -->
-    <meta property= "og: title" content="Camila Gonzalez - Portfolio">
-    <meta property= "og: description" content="Curso básico de Fotografía en Chacabuco. Clases teóricas y prácticas. Vas a aprender a usar una cámara réflex o celular de forma manual,
-    componer armoniosamente diferentes fotografías y saber el manejo de luz natural y artificial.">
-    <meta property= "og:image" content="assets/curso/curso.jpg">
-    <meta property= "og: url" content="https://www.camilagonzalez.ar">
-    <meta propert= "og: locale" content="es_Es">
+    <meta property="og: title" content="Camila Gonzalez - Portfolio" />
+    <meta
+      property="og: description"
+      content="Curso básico de Fotografía en Chacabuco. Clases teóricas y prácticas. Vas a aprender a usar una cámara réflex o celular de forma manual,
+    componer armoniosamente diferentes fotografías y saber el manejo de luz natural y artificial."
+    />
+    <meta property="og:image" content="assets/curso/curso.jpg" />
+    <meta property="og: url" content="https://www.camilagonzalez.ar" />
+    <meta propert="og: locale" content="es_Es" />
     <!-- fin SEO -->
     <!--Bootstrap-->
-    <link rel="stylesheet" href="components/bootstrap.css">
+    <link rel="stylesheet" href="components/bootstrap.css" />
     <!--Estilos propios-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <!--Animate CSS-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <!--Icono navegador-->
-    <link rel="shortcut icon" href="assets/img/camera.png" type="image/x-icon">
-</head>
-<body>
-<!--Container general-->
-<div id="caja" class="caja"> 
-    <!--Header + BG 1-->
-    <div class="container-xxl bg-1--curso">
+    <link
+      rel="shortcut icon"
+      href="assets/img/camera.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!--Container general-->
+    <div id="caja" class="caja">
+      <!--Header + BG 1-->
+      <div class="container-xxl bg-1--curso">
         <!--Header Navbar Bootstrap-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent ">
-                <div class="container-fluid">
-                <a class="navbar-brand logo animate__animated animate__fadeInUp" href="index.html">Camila Gonzalez</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse animate__animated animate__fadeInUp" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+          <div class="container-fluid">
+            <a
+              class="navbar-brand logo animate__animated animate__fadeInUp"
+              href="index.html"
+              >Camila Gonzalez</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse animate__animated animate__fadeInUp"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sobre-mi.html">Sobre mi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link activo" href="#">Curso</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Servicios
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="pages/sesiones-infantiles.html"
+                        >Sesiones Infantiles</a
+                      >
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="sobre-mi.html">Sobre mi</a>
+                    <li>
+                      <a class="dropdown-item" href="pages/sesiones-15.html"
+                        >Book de 15</a
+                      >
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link activo" href="#">Curso</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Servicios
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="pages/sesiones-infantiles.html">Sesiones Infantiles</a></li>
-                        <li><a class="dropdown-item" href="pages/sesiones-15.html">Book de 15</a></li>
-                        <!--
+                    <!--
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                         -->
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                    </li>
-                    </ul>
-                    <!--
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+              </ul>
+              <!--
                     <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Buscar</button>
                     </form> -->
-                </div>
-                </div>
+            </div>
+          </div>
         </nav>
         <!--Boton bajar-->
-        <h3 class="bg-1__frase">Comienza tu camino en la Fotografía</h3>   
-        <div class="boton-bajar animate__animated animate__flash  animate__infinite">
-            <a href="#main"> <img src="assets/img/flecha-abajo1.png" alt=""> </a>
+        <h3 class="bg-1__frase">Comienza tu camino en la Fotografía</h3>
+        <div
+          class="boton-bajar animate__animated animate__flash animate__infinite"
+        >
+          <a href="#main">
+            <img src="assets/img/flecha-abajo1.png" alt="" />
+          </a>
         </div>
-    </div>  
-  <div> <!--Boton back top-->
-      <a href="#"> <img class="boton-menu animate__animated animate__flash  animate__infinite" src="assets/img/flecha-abajo1.png" alt=""> </a>
-      <!--Main-->
-      <main id="main" class="main-curso">
+      </div>
+      <div>
+        <!--Boton back top-->
+        <a href="#">
+          <img
+            class="boton-menu animate__animated animate__flash animate__infinite"
+            src="assets/img/flecha-abajo1.png"
+            alt=""
+          />
+        </a>
+        <!--Main-->
+        <main id="main" class="main-curso">
           <div>
             <picture>
-              <source srcset="assets/curso/curso-3.jpg" media="(max-width: 575.98px)">
-              <source srcset="assets/curso/curso-2.jpg" media="(max-width: 998.98px)">
-              <img class="curso-img" src="assets/curso/curso.jpg" alt="autoretrato de camila gonzalez tomando una fotogradía">
+              <source
+                srcset="assets/curso/curso-3.jpg"
+                media="(max-width: 575.98px)"
+              />
+              <source
+                srcset="assets/curso/curso-2.jpg"
+                media="(max-width: 998.98px)"
+              />
+              <img
+                class="curso-img"
+                src="assets/curso/curso.jpg"
+                alt="autoretrato de camila gonzalez tomando una fotogradía"
+              />
             </picture>
           </div>
-      </main>
-      <!--Foto BG 2-->
-      <div class="bg-2--curso">
-            <h3 class="bg-2__frase">Aprende capturando</h3>    
-      </div> 
-      <!--Seccion dos - Curso-->
-      <section class="container-xxl seccion-dos">
-        <div class="seccion-dos__header">
-          <h3>Curso de fotografía básico </h3>
-          <hr>
-          <p>Este curso consta de clases <strong> teóricas y prácticas</strong>. <br>
-            De las cuales vamos a tener salidas fotográficas entre las clases teóricas.
-            <br> Vas a aprender a usar una cámara réflex o celular de forma <strong>manual</strong>, 
-             <br> componer armoniosamente diferentes fotografías y saber el manejo de luz natural y artificial.  <br> </p>
-        </div>  
-        <div class="row seccion-dos__sobre-mi">
-          <div class="col-6">
-            <picture>
-              <source srcset="assets/curso/108000923-3.jpg" media="">
-              <source srcset="assets/curso/108000923-2.jpg" media="">
-              <img src="assets/curso/108000923.jpg" alt="fotografia de niña con efectos de luces">  
-            </picture>
+        </main>
+        <!--Foto BG 2-->
+        <div class="bg-2--curso">
+          <h3 class="bg-2__frase">Aprende capturando</h3>
+        </div>
+        <!--Seccion dos - Curso-->
+        <section class="container-xxl seccion-dos">
+          <div class="seccion-dos__header">
+            <h3>Curso de fotografía básico</h3>
+            <hr />
+            <p>
+              Este curso consta de clases
+              <strong> teóricas y prácticas</strong>. <br />
+              De las cuales vamos a tener salidas fotográficas entre las clases
+              teóricas.
+              <br />
+              Vas a aprender a usar una cámara réflex o celular de forma
+              <strong>manual</strong>, <br />
+              componer armoniosamente diferentes fotografías y saber el manejo
+              de luz natural y artificial. <br />
+            </p>
           </div>
-          <div class="col-6">
-          <p>Mi objetivo principal es que, conozcan las funciones básicas para poder manejar una cámara de manera manual. <br> ¿Por qué? <br> 
-            Porque te abre el campo a la <strong>creatividad</strong>. <br>
-            Sabiendo esto, uno puede salir y hacer fotos de todo tipo sin limite. 
-            Quiero que puedan manejar la luz en diferentes situaciones. <br>
-            Y lo mas importante que puedan salir <strong>inspirados con ganas de hacer el tipo de fotografía que les gusta. </strong> 
-            <br> Al final de este curso, vamos a hacer una exposición con la foto que elijan ustedes y recibiran la entrega de certificado de asistencia. </p>
+          <div class="row seccion-dos__sobre-mi">
+            <div class="col-6">
+              <picture>
+                <source srcset="assets/curso/108000923-3.jpg" media="" />
+                <source srcset="assets/curso/108000923-2.jpg" media="" />
+                <img
+                  src="assets/curso/108000923.jpg"
+                  alt="fotografia de niña con efectos de luces"
+                />
+              </picture>
+            </div>
+            <div class="col-6">
+              <p>
+                Mi objetivo principal es que, conozcan las funciones básicas
+                para poder manejar una cámara de manera manual. <br />
+                ¿Por qué? <br />
+                Porque te abre el campo a la <strong>creatividad</strong>.
+                <br />
+                Sabiendo esto, uno puede salir y hacer fotos de todo tipo sin
+                limite. Quiero que puedan manejar la luz en diferentes
+                situaciones. <br />
+                Y lo mas importante que puedan salir
+                <strong
+                  >inspirados con ganas de hacer el tipo de fotografía que les
+                  gusta.
+                </strong>
+                <br />
+                Al final de este curso, vamos a hacer una exposición con la foto
+                que elijan ustedes y recibiran la entrega de certificado de
+                asistencia.
+              </p>
+            </div>
           </div>
-        </div>
-        
-      </section>
-      <!--Seccion Tres - Que vas a aprender?-->
-      <section class="curso-aprender">
-        <div class="seccion-tres__header">
-          <h3>¿Qué vas a aprender?</h3>
-          <hr>
-          <p>Vas a aprender a usar una cámara réflex o celular de forma Manual. <br>
-            Aprender los tres paramentros principales que son: <strong> <br> DIAFRAGMA – VELOCIDAD DE OBTURACION – ISO.</strong> <br></p>
-            <p>Ademas aprenderas lo siguiente: </p>
-            <p><strong> Enfoque - Balance de color - Funciones de la camara <br>
-            Manejo de luz natural y artificial <br> Composición - Diferentes tipos de Fotografía
-           <br> Conocer diferentes lentes y cual es adecuado para cada tipo Fotografía</strong></p> 
-        </div>
-        <div class="seccion-tres__foto">
-          <video autoplay loop muted controls>
-            <source src="assets/video/curso-video.mp4" type="video/mp4">
-            <source src="assets/video/curso-video.mov" type="video/mov">
-            <source src="assets/video/curso-video.webm" type="video/webm">
-          </video>
-        </div>
-      </section>
-      
-      <!--Seccion Cuatro - Precios-->
-      <section class="seccion-cuatro">
-        <div class="curso-precio">
-          <div class="">
-            <div class="card mb-4 rounded-3 shadow-sm border-primary">
-              <div class="card-header py-3 text-white bg-primary border-primary">
-                <h4 class="my-0 fw-normal">Curso de Fotografía</h4>
-              </div>
-              <div class="card-body">
-                <h2 class="card-title pricing-card-title">$1600<small class="text-muted fw-light">/mes</small></h2>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li> <b>Duración:</b> 3 meses (1 clase por semana)</li>
-                  <li><b>Fecha:</b> Martes 17/08 </li>
-                  <li><b>Horario:</b> 15hs a 16hs</li>
-                  <li><b>Grupo:</b> 5 personas</li>
-                  <li><b>Dirección:</b> Vélez Sarsfield 85</li>
-                </ul>
-                <a href="https://api.whatsapp.com/send?phone=542352505048&text=%C2%A1Hola!%20Quiero%20hacer%20el%20curso%20de%20Fotograf%C3%ADa%20%F0%9F%93%B8" target="_blank">
-                <button type="button" class="w-100 btn btn-lg btn-primary">Quiero hacerlo</button>
-              </a>
+        </section>
+        <!--Seccion Tres - Que vas a aprender?-->
+        <section class="curso-aprender">
+          <div class="seccion-tres__header">
+            <h3>¿Qué vas a aprender?</h3>
+            <hr />
+            <p>
+              Vas a aprender a usar una cámara réflex o celular de forma Manual.
+              <br />
+              Aprender los tres paramentros principales que son:
+              <strong>
+                <br />
+                DIAFRAGMA – VELOCIDAD DE OBTURACION – ISO.</strong
+              >
+              <br />
+            </p>
+            <p>Ademas aprenderas lo siguiente:</p>
+            <p>
+              <strong>
+                Enfoque - Balance de color - Funciones de la camara <br />
+                Manejo de luz natural y artificial <br />
+                Composición - Diferentes tipos de Fotografía <br />
+                Conocer diferentes lentes y cual es adecuado para cada tipo
+                Fotografía</strong
+              >
+            </p>
+          </div>
+          <div class="seccion-tres__foto">
+            <video autoplay loop muted controls>
+              <source src="assets/video/curso-video.mp4" type="video/mp4" />
+              <source src="assets/video/curso-video.mov" type="video/mov" />
+              <source src="assets/video/curso-video.webm" type="video/webm" />
+            </video>
+          </div>
+        </section>
+
+        <!--Seccion Cuatro - Precios-->
+        <section class="seccion-cuatro">
+          <div class="curso-precio">
+            <div class="">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div
+                  class="card-header py-3 text-white bg-primary border-primary"
+                >
+                  <h4 class="my-0 fw-normal">Curso de Fotografía</h4>
+                </div>
+                <div class="card-body">
+                  <h2 class="card-title pricing-card-title">
+                    $1600<small class="text-muted fw-light">/mes</small>
+                  </h2>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li><b>Duración:</b> 3 meses (1 clase por semana)</li>
+                    <li><b>Fecha:</b> Martes 17/08</li>
+                    <li><b>Horario:</b> 15hs a 16hs</li>
+                    <li><b>Grupo:</b> 5 personas</li>
+                    <li><b>Dirección:</b> Vélez Sarsfield 85</li>
+                  </ul>
+                  <a
+                    href="https://api.whatsapp.com/send?phone=542352505048&text=%C2%A1Hola!%20Quiero%20hacer%20el%20curso%20de%20Fotograf%C3%ADa%20%F0%9F%93%B8"
+                    target="_blank"
+                  >
+                    <button type="button" class="w-100 btn btn-lg btn-primary">
+                      Quiero hacerlo
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="container-xl text-center">
-          <div class="row">
-            <div class="col-lg-4">
-              <img src="assets/img/tarjeta.png" alt="">
-              <h2>Medios de pago</h2>
-              <p>Se puede realizar en efectivo, transferencia bancaria o mediante mercado pago.
-              </p>
-              <!--
-              <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-              -->
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-              <img src="assets/img/dinero.png" alt="">    
-              <h2>Forma de pago</h2>
-              <p>El pago re realiza la primera clase de cada mes.</p>
-              <!--
-              <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-              -->
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-              <img src="assets/img/camara-curso.png" alt="">     
-              <h2>¿Qué necesitas para hacer el curso?</h2>
-              <p>Ganas de aprender y ampliar tus conocimientos. 
-                Puedes hacer el curso si aun no tienes camara reflex y decidirte por alguna luego de todo lo que aprenderas.
+          <div class="container-xl text-center">
+            <div class="row">
+              <div class="col-lg-4">
+                <img src="assets/img/tarjeta.png" alt="" />
+                <h2>Medios de pago</h2>
+                <p>
+                  Se puede realizar en efectivo, transferencia bancaria o
+                  mediante mercado pago.
                 </p>
-              <!--
+                <!--
               <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-              -->
-            </div><!-- /.col-lg-4 -->
-          </div><!-- /.row -->
-        </div>
-      </section>
-      
-      <!--Footer-->
-      <footer class="container-fluid p-0 pr-0">
-        <div class="container-footer">
-          <div>
-            <h3>Sígueme en mis redes sociales</h3>
+              --></div>
+              <!-- /.col-lg-4 -->
+              <div class="col-lg-4">
+                <img src="assets/img/dinero.png" alt="" />
+                <h2>Forma de pago</h2>
+                <p>El pago re realiza la primera clase de cada mes.</p>
+                <!--
+              <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+              --></div>
+              <!-- /.col-lg-4 -->
+              <div class="col-lg-4">
+                <img src="assets/img/camara-curso.png" alt="" />
+                <h2>¿Qué necesitas para hacer el curso?</h2>
+                <p>
+                  Ganas de aprender y ampliar tus conocimientos. Puedes hacer el
+                  curso si aun no tienes camara reflex y decidirte por alguna
+                  luego de todo lo que aprenderas.
+                </p>
+                <!--
+              <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+              --></div>
+              <!-- /.col-lg-4 -->
+            </div>
+            <!-- /.row -->
           </div>
-          <div class="row social-links">
-            <ul class="nav mx-auto">
-              <li class="nav-item"> <a class="nav-link" href="https://www.facebook.com/CamilaGonzalezPhotographer" target="_blank"><img src="assets/img/fb.png" alt=""></a> </li>
-              <li class="nav-item"> <a class="nav-link" href="https://www.instagram.com/camilagonzalezfotografia/" target="_blank"><img src="assets/img/ig.png" alt=""></a> </li>
-              <li class="nav-item"> <a class="nav-link" href="https://api.whatsapp.com/send?phone=542352505048&text=%C2%A1Hola%20Camila!" target="_blank"><img src="assets/img/wa.png" alt=""></a> </li>
-            </ul>
-          </div>    
-        </div>
-        <div class="copy pt-4 pb-4">
-          <p> &copy; 2021<a href="https://www.instagram.com/camilagonzalezfotografia/" target="_blank"> Camila Gonzalez</a>  &nbsp;  |  &nbsp; Design by <a href="https://www.instagram.com/pulpol_/" target="_blank">Pablo Duarte</a> &nbsp; | &nbsp;  All rights reserved</p>
-        </div>
-      </footer>
-  </div> <!--Fin back top-->
-<!--Fin container general-->
-</div>
+        </section>
+
+        <!--Footer-->
+        <footer class="container-fluid p-0 pr-0">
+          <div class="container-footer">
+            <div>
+              <h3>Sígueme en mis redes sociales</h3>
+            </div>
+            <div class="row social-links">
+              <ul class="nav mx-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="https://www.facebook.com/CamilaGonzalezPhotographer"
+                    target="_blank"
+                    ><img src="assets/img/fb.png" alt=""
+                  /></a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="https://www.instagram.com/camilagonzalezfotografia/"
+                    target="_blank"
+                    ><img src="assets/img/ig.png" alt=""
+                  /></a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="https://api.whatsapp.com/send?phone=542352505048&text=%C2%A1Hola%20Camila!"
+                    target="_blank"
+                    ><img src="assets/img/wa.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="copy pt-4 pb-4">
+            <p>
+              &copy; 2021<a
+                href="https://www.instagram.com/camilagonzalezfotografia/"
+                target="_blank"
+              >
+                Camila Gonzalez</a
+              >
+              &nbsp; | &nbsp; Design by
+              <a href="https://www.instagram.com/pulpol_/" target="_blank"
+                >Pablo Duarte</a
+              >
+              &nbsp; | &nbsp; All rights reserved
+            </p>
+          </div>
+        </footer>
+      </div>
+      <!--Fin back top-->
+      <!--Fin container general-->
+    </div>
     <!--JS Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
