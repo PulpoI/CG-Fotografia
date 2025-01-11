@@ -167,13 +167,13 @@ body {
       background-image: url(../assets/curso/foto-3.jpg); } }
 
 .bg-1--contacto {
-  background-image: url(../assets/sobre-mi/DSC0220.jpg); }
+  background-image: url(../assets/sobre-mi/cami-montana.jpg); }
   @media (max-width: 991.98px) {
     .bg-1--contacto {
-      background-image: url(../assets/sobre-mi/DSC0220-2.jpg); } }
+      background-image: url(../assets/sobre-mi/cami-montana-2.jpg); } }
   @media (max-width: 575.98px) {
     .bg-1--contacto {
-      background-image: url(../assets/sobre-mi/DSC0220-3.jpg); } }
+      background-image: url(../assets/sobre-mi/cami-montana-3.jpg); } }
 
 .bg-1--sesiones-infantiles, .bg-1--sesiones-15 {
   height: 800px;
@@ -190,13 +190,13 @@ body {
       background-image: url(../assets/infantiles/123606278.jpg); } }
 
 .bg-1--sesiones-15 {
-  background-image: url(../assets/15/DSC2039.jpg); }
+  background-image: url(../assets/15/bg-hero-quince.jpg); }
   @media (max-width: 991.98px) {
     .bg-1--sesiones-15 {
-      background-image: url(../assets/15/DSC2039-2.jpg); } }
+      background-image: url(../assets/15/bg-hero-quince-2.jpg); } }
   @media (max-width: 575.98px) {
     .bg-1--sesiones-15 {
-      background-image: url(../assets/15/DSC2039-3.jpg); } }
+      background-image: url(../assets/15/bg-hero-quince-3.jpg); } }
 
 .bg-2--15 {
   background-image: url(../assets/15/DSC2508.jpg); }
@@ -208,13 +208,13 @@ body {
       background-image: url(../assets/15/DSC2508-3.jpg); } }
 
 .bg-2--15-2 {
-  background-image: url(../assets/15/DSC3913.jpg); }
+  background-image: url(../assets/15/bg-fotolibro.jpg); }
   @media (max-width: 991.98px) {
     .bg-2--15-2 {
-      background-image: url(../assets/15/DSC3913-2.jpg); } }
+      background-image: url(../assets/15/bg-fotolibro-2.jpg); } }
   @media (max-width: 575.98px) {
     .bg-2--15-2 {
-      background-image: url(../assets/15/DSC3913-3.jpg); } }
+      background-image: url(../assets/15/bg-fotolibro-3.jpg); } }
 
 /*Header Nav*/
 .navbar .logo {
