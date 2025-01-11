@@ -139,13 +139,13 @@ body {
 /*BG 1 - Curso*/
 .bg-1--curso {
   background-size: cover;
-  background-image: url(../assets/curso/DSC0455.jpg); }
+  background-image: url(../assets/curso/bg-hero-curso.jpg); }
   @media (max-width: 991.98px) {
     .bg-1--curso {
-      background-image: url(../assets/curso/DSC0455-2.jpg); } }
+      background-image: url(../assets/curso/bg-hero-curso-2.jpg); } }
   @media (max-width: 575.98px) {
     .bg-1--curso {
-      background-image: url(../assets/curso/DSC0455-3.jpg); } }
+      background-image: url(../assets/curso/bg-hero-curso-3.jpg); } }
 
 .main-curso {
   display: flex;
@@ -373,7 +373,8 @@ body {
   @media only screen and (max-width: 991.98px) and (min-width: 575.98px) {
     .seccion-dos__fotos {
       display: grid;
-      grid-template-areas: "foto-1 foto-2" "foto-3 foto-3";
+      grid-template-areas: "foto-1 foto-2"
+ "foto-3 foto-3";
       grid-template-rows: auto auto;
       grid-template-columns: 1fr 1fr;
       background-color: #f8f9fa; }

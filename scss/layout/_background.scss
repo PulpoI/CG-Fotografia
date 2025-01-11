@@ -103,12 +103,12 @@ body {
 .bg-1--curso {
     @extend .bg-1;
     background-size: cover;
-    background-image: url(../assets/curso/DSC0455.jpg);
+    background-image: url(../assets/curso/bg-hero-curso.jpg);
     @media (max-width: $media-tablet) {
-        background-image: url(../assets/curso/DSC0455-2.jpg);
+        background-image: url(../assets/curso/bg-hero-curso-2.jpg);
     }
     @media (max-width: $media-phone) {
-        background-image: url(../assets/curso/DSC0455-3.jpg);
+        background-image: url(../assets/curso/bg-hero-curso-3.jpg);
 }
 }
 .main-curso {
